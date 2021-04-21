@@ -20,7 +20,7 @@
                     type: Boolean,
                     required: false
             }
-        }, 
+        },
         computed: {
             infoRoute() {
                 return this.isInfoPage ? "/" : "/info"

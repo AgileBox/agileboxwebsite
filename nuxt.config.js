@@ -55,14 +55,14 @@ export default {
     /*
      ** Using frontmatter-markdown-loader here to parse md files
      */
-    extend(config, ctx) {  
+    extend(config, ctx) {
       config.module.rules.push(
       {
           test: /\.md$/,
           loader: "frontmatter-markdown-loader",
           include: path.resolve(__dirname, "content/blog-posts")
       })
-    }    
+    }
   },
   generate: {
     routes: dynamicRoutes

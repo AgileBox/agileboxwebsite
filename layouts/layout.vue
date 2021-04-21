@@ -10,15 +10,17 @@
 <script>
 import Header from '~/components/Header.vue'
 
-    export default {
-        components: {
-            Header
-        }, 
-        computed: {
-            isInfoPage() {
-                return this.$nuxt._route.name === "info" && true
-            }
-        },
-    }
-</script>
+export default {
+    name: 'Layout',
 
+    components: {
+        Header
+    },
+
+    computed: {
+        isInfoPage() {
+            return this.$nuxt._route.name === "info" && true
+        }
+    },
+}
+</script>
