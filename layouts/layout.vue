@@ -24,3 +24,14 @@ export default {
     },
 }
 </script>
+
+<style lang="scss">
+.wrapper {
+    padding: 0 40px;
+
+    @media (min-width: 1340px) {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+}
+</style>

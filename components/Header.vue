@@ -1,31 +1,19 @@
 <template>
     <header class="header">
-        <div class="container mx-auto w-2/4 h-1/5">
+        <div class="wrapper h-1/5 flex flex-row justify-between">
+            <div class="logo p-6">
+                Logo
+            </div>
+
             <nav class="nav">
-                <ul class="flex flex-row justify-evenly items-center">
-                    <li class="nav__items">
-                        <NuxtLink to="/">
-                            Strona główna
-                        </NuxtLink>
-                    </li>
-                    <li class="nav__items">
-                        <NuxtLink to="/">
-                            O nas
-                        </NuxtLink>
-                    </li>
-                    <li class="nav__items">
-                        <NuxtLink to="/">
-                            Oferta
-                        </NuxtLink>
-                    </li>
-                    <li class="nav__items">
-                        <NuxtLink to="/">
-                            Blog
-                        </NuxtLink>
-                    </li>
-                    <li class="nav__items">
-                        <NuxtLink to="/">
-                            Kontakt
+                <ul class="flex flex-row">
+                    <li
+                        v-for="(item, index) in menuItems"
+                        class="nav__items"
+                        :key="index"
+                    >
+                        <NuxtLink :to="item.to" class="block p-6">
+                            {{ item.name }}
                         </NuxtLink>
                     </li>
                 </ul>
@@ -35,7 +23,30 @@
 </template>
 
 <script>
-    export default {
-
-    }
+export default {
+    data: () => ({
+        menuItems: [
+            {
+                name: "Strona główna",
+                to: "/"
+            },
+            {
+                name: "O nas",
+                to: "/"
+            },
+            {
+                name: "Oferta",
+                to: "/"
+            },
+            {
+                name: "Blog",
+                to: "/"
+            },
+            {
+                name: "Kontakt",
+                to: "/"
+            },
+        ]
+    })
+}
 </script>
