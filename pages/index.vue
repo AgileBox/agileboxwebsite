@@ -1,18 +1,18 @@
 <template>
     <div>
-        <BlogList :posts="posts" />
+        <Banner />
     </div>
 </template>
 
 <script>
-// import BlogList from '~/components/BlogList.vue'
+import Banner from '~/components/Banner.vue'
 
 export default {
     layout: 'layout',
 
-    // components: {
-    //     BlogList
-    // },
+    components: {
+        Banner
+    },
 
     // async asyncData() {
     //     // create context via webpack to map over all blog posts
@@ -24,6 +24,6 @@ export default {
     //     return {
     //         posts
     //     }
-    // }
+
 }
 </script>

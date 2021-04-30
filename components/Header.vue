@@ -1,5 +1,5 @@
 <template>
-    <header class="header">
+    <header class="header fixed w-full">
         <div class="wrapper h-1/5 flex flex-row justify-between">
             <div class="logo p-6">
                 Logo
