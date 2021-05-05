@@ -1,5 +1,5 @@
 <template>
-    <header class="header fixed w-full z-50">
+    <header class="header fixed w-full z-50 border-b border-gray-500 border-opacity-25">
         <div class="wrapper h-1/5 flex flex-row justify-between items-center">
             <div class="logo">
                 Logo
@@ -9,10 +9,9 @@
                 <ul class="flex flex-row">
                     <li
                         v-for="(item, index) in menuItems"
-                        class="nav__items"
                         :key="index"
                     >
-                        <NuxtLink :to="item.to" class="block p-6">
+                        <NuxtLink :to="item.to" class="[ block p-6 font-medium hover:text-blue-700 ] nav__item">
                             {{ item.name }}
                         </NuxtLink>
                     </li>
@@ -50,3 +49,15 @@ export default {
     })
 }
 </script>
+
+<style lang="scss">
+.nav__item {
+    &::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background-color: black;
+    }
+}
+</style>
