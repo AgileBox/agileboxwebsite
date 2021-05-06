@@ -1,17 +1,20 @@
 <template>
     <div>
         <Banner />
+        <TextAndImage />
     </div>
 </template>
 
 <script>
 import Banner from '~/components/Banner.vue'
+import TextAndImage from '~/components/TextAndImage.vue'
 
 export default {
     layout: 'layout',
 
     components: {
-        Banner
+        Banner,
+        TextAndImage
     },
 
     // async asyncData() {
