@@ -31,7 +31,8 @@ export default {
 
     @media (min-width: 1340px) {
         max-width: 1280px;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 </style>

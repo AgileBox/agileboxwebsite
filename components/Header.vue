@@ -57,11 +57,11 @@ export default {
     &::after {
         content: "";
         position: absolute;
+        left: 0;
+        bottom: 0;
         width: 0;
         height: 2px;
         background-color: black;
-        left: 0;
-        bottom: 0;
         transition: all .2s;
         opacity: 0;
     }
