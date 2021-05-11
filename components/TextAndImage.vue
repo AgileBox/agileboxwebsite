@@ -14,6 +14,9 @@
             <div class="">
                 <h2 class="text-4xl font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
                 <p>Fugit quas, maiores debitis ut beatae quibusdam, dignissimos aliquid aspernatur temporibus tempore non suscipit necessitatibus alias quidem accusantium voluptatum laborum doloribus quasi?</p>
+                <NuxtLink to="/" class="btn__main">
+                            Więcej
+                </NuxtLink>
             </div>
         </div>
     </div>
@@ -24,3 +27,30 @@ export default {
 
 }
 </script>
+
+<style lang="scss">
+.btn {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    padding: 0 40px;
+    cursor: pointer;
+    white-space: nowrap;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    outline: none;
+
+    &__main {
+        border-color: #1292ee;
+        background-color: #1292ee;
+        color: #fff;
+    }
+
+}
+
+
+</style>
