@@ -2,11 +2,11 @@
     <div class="wrapper grid grid-cols-12 place-items-center mt-16 mb-16">
         <div class="img col-span-7 pr-16">
             <div class="relative">
-                <div class="w-3/5 ml-auto relative z-10 mb-10">
-                    <img src="~/static/DSC_6102pp.jpg" >
+                <div class="w-3/5 ml-auto relative z-10 mb-10 shadow-2xl">
+                    <img src="~/static/DSC_6102pp.jpg" class="rounded-lg">
                 </div>
-                <div class="w-3/5 mr-auto absolute -bottom-16">
-                    <img src="~/static/DSC_6102pp.jpg" >
+                <div class="w-3/5 mr-auto absolute -bottom-16 shadow-lg">
+                    <img src="~/static/DSC_6102pp.jpg" class="rounded-lg">
                 </div>
             </div>
         </div>

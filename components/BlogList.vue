@@ -1,22 +1,25 @@
 <template>
-    <section>
-        <ul class="list">
-            <NuxtLink
+    <section class= "wrapper mt-40 mb-20">
+        <h2 class="text-center text-4xl font-bold my-8">Przeczytaj</h2>
+        <ul class="grid grid-cols-12 gap-8">
+            <li
                 v-for="post in sortedPosts"
                 :key="post.attributes.title"
-                :to="`/blog/${formatSlug(post.attributes.title)}`"
+                class="col-span-4"
             >
-                <li>
-                    <div class="hero_image">
-                        <img :src="post.attributes.hero_image" :alt="post.attributes.title">
+                <NuxtLink
+                    class="blog-card"
+                    :to="`/blog/${formatSlug(post.attributes.title)}`"
+                >
+                    <div class="overflow-hidden">
+                        <img :src="post.attributes.hero_image" :alt="post.attributes.title" class="mb-6 blog-card__img">
                     </div>
-                    <div class="blogList__info">
-                        <h2>{{ post.attributes.title }}</h2>
-                        <h3>{{ formatDate(post.attributes.date) }}</h3>
-                        <p>{{ formatExcerpt(post.body) }}...</p>
-                    </div>
-                </li>
-            </NuxtLink>
+                    <h3 class="text-gray-500 mb-4">{{ formatDate(post.attributes.date) }}</h3>
+                    <h2 class="text-2xl font-bold mb-4">{{ post.attributes.title }}</h2>
+                    <!-- <p>{{ formatExcerpt(post.body) }}...</p> -->
+                    <p class="font-medium text-blue-500">Czytaj więcej</p>
+                </NuxtLink>
+            </li>
         </ul>
     </section>
 </template>
@@ -43,7 +46,7 @@
                     }
                     return 0;
                 })
-                return sortedPosts
+                return sortedPosts.slice(0, 3)
             }
         },
         methods: {
@@ -60,3 +63,13 @@
         }
     }
 </script>
+
+<style lang="scss">
+.blog-card {
+    &:hover {
+        &__img {
+
+        }
+    }
+}
+</style>

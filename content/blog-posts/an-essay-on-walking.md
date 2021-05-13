@@ -3,7 +3,7 @@ author: Henry David Thoreau
 title: An Essay on Walking
 slug: an-essay-on-walking
 date: 2019-07-29T07:00:00Z
-hero_image: "/heather-shevlin-3B_NrzTjajc-unsplash.jpg"
+hero_image: "/DSC_6102pp.jpg"
 
 ---
 Then it is that I appreciate the beauty and the glory of architecture, which itself never turns in, but forever stands out and erect, keeping watch over the slumberers.

@@ -3,15 +3,15 @@ author: Walt Whitman
 title: Song of Myself
 slug: song-of-myself
 date: 2019-07-24T07:00:00Z
-hero_image: "/ren-ran-bBiuSdck8tU-unsplash.jpg"
+hero_image: "/DSC_6102pp.jpg"
 
 ---
-I have heard what the talkers were talking, the talk of the  
+I have heard what the talkers were talking, the talk of the
  beginning and the end. But I do not talk of the beginning or the end. There was never any more inception than there is now, Nor any more youth or age than there is now, And will never be any more perfection than there is now, Nor any more heaven or hell than there is now.
 
-Urge and urge and urge, Always the procreant urge of the world.  
- Out of the dimness opposite equals advance, always substance and  
- increase, Always a knit of identity, always distinction, always a breed of life. To elaborate is no avail, learn’d and unlearn’d feel that it is  
+Urge and urge and urge, Always the procreant urge of the world.
+ Out of the dimness opposite equals advance, always substance and
+ increase, Always a knit of identity, always distinction, always a breed of life. To elaborate is no avail, learn’d and unlearn’d feel that it is
  so.
 
 Sure as the most certain sure, plumb in the uprights, well entretied, braced in the beams, Stout as a horse, affectionate, haughty, electrical, I and this mystery here we stand.
@@ -20,10 +20,10 @@ Clear and sweet is my soul, and clear and sweet is all that is not my soul.
 
 ![](/igor-son-FV_PxCqgtwc-unsplash.jpg)
 
-Lack one lacks both, and the unseen is proved by the seen,  
+Lack one lacks both, and the unseen is proved by the seen,
  Till that becomes unseen and receives proof in its turn.
 
-Showing the best and dividing it from the worst age vexes age,  
+Showing the best and dividing it from the worst age vexes age,
  Knowing the perfect fitness and equanimity of things, while they discuss I am silent, and go bathe and admire myself.
 
 Welcome is every organ and attribute of me, and of any man hearty and clean, Not an inch nor a particle of an inch is vile, and none shall be less familiar than the rest.

@@ -11,7 +11,7 @@
                         v-for="(item, index) in menuItems"
                         :key="index"
                     >
-                        <NuxtLink :to="item.to" class="[ block p-6 font-medium hover:text-blue-700 transition-all ] nav__item">
+                        <NuxtLink :to="item.to" class="[ block p-6 font-medium hover:text-blue-500 transition-all ] nav__item">
                             {{ item.name }}
                         </NuxtLink>
                     </li>
