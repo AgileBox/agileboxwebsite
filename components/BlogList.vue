@@ -11,10 +11,10 @@
                     class="blog-card"
                     :to="`/blog/${formatSlug(post.attributes.title)}`"
                 >
-                    <div class="overflow-hidden">
-                        <img :src="post.attributes.hero_image" :alt="post.attributes.title" class="mb-6 blog-card__img">
+                    <div class="overflow-hidden mb-6 ">
+                        <img :src="post.attributes.hero_image" :alt="post.attributes.title" class="blog-card__img">
                     </div>
-                    <h3 class="text-gray-500 mb-4">{{ formatDate(post.attributes.date) }}</h3>
+                    <h3 class="text-gray-500 mb-2">{{ formatDate(post.attributes.date) }}</h3>
                     <h2 class="text-2xl font-bold mb-4">{{ post.attributes.title }}</h2>
                     <!-- <p>{{ formatExcerpt(post.body) }}...</p> -->
                     <p class="font-medium text-blue-500">Czytaj więcej</p>
@@ -66,9 +66,15 @@
 
 <style lang="scss">
 .blog-card {
-    &:hover {
-        &__img {
+    $this: &;
 
+    &__img {
+        transition: transform .8s;
+    }
+
+    &:hover {
+        #{$this}__img {
+            transform: scale(1.2)
         }
     }
 }

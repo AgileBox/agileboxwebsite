@@ -3,6 +3,21 @@
         <Banner />
         <TextAndImage />
         <BlogList :posts="posts" />
+        <div class="bg-gray-50">
+            <HeaderAndText
+                title="Co robimy"
+                subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            >
+                <p class="text-center text-gray-500 mb-4">
+                    Fugit quas, maiores debitis ut beatae quibusdam, dignissimos aliquid aspernatur temporibus tempore non suscipit necessitatibus alias quidem accusantium voluptatum laborum doloribus quasi? Temporibus, repellat, natus fuga labore expedita ducimus perferendis consequatur facere nostrum voluptatum commodi repellendus itaque, quos modi voluptatibus tempora deleniti iure mollitia.
+                </p>
+            </HeaderAndText>
+            <HeaderAndText
+                title="Rekomendacje"
+                subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quas, maiores debitis ut beatae quibusdam."
+            >
+            </HeaderAndText>
+        </div>
     </div>
 </template>
 
@@ -10,6 +25,7 @@
 import Banner from '~/components/Banner.vue'
 import TextAndImage from '~/components/TextAndImage.vue'
 import BlogList from '~/components/BlogList.vue'
+import HeaderAndText from '~/components/HeaderAndText.vue'
 
 export default {
     layout: 'layout',
@@ -17,7 +33,8 @@ export default {
     components: {
         Banner,
         TextAndImage,
-        BlogList
+        BlogList,
+        HeaderAndText
     },
 
     async asyncData() {
