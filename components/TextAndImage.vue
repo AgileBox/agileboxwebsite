@@ -14,16 +14,20 @@
             <div class="pl-6">
                 <h2 class="text-2xl font-bold my-8">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
                 <p class="text-gray-500 mb-8">Fugit quas, maiores debitis ut beatae quibusdam, dignissimos aliquid aspernatur temporibus tempore non suscipit necessitatibus alias quidem accusantium voluptatum laborum doloribus quasi?</p>
-                <NuxtLink to="/" class="[ inline-flex px-10 py-3 bg-blue-500 text-white font-medium border border-transparent border-solid rounded-sm hover:bg-black transition-all ] btn__main">
-                            Więcej
-                </NuxtLink>
+                <Btn />
             </div>
         </div>
     </div>
 </template>
 
 <script>
+
+import Btn from '~/components/Btn.vue'
+
 export default {
+    components: {
+        Btn
+    },
 
 }
 </script>

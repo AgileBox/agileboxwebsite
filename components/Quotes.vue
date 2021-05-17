@@ -48,8 +48,6 @@ export default {
 </script>
 
 <style lang="scss">
-// .quote {
-//     font-family: Georgia, 'Times New Roman', Times, serif;
-// }
+
 
 </style>

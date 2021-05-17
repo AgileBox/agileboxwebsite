@@ -12,7 +12,7 @@
                     :to="`/blog/${formatSlug(post.attributes.title)}`"
                 >
                     <div class="overflow-hidden mb-6 ">
-                        <img :src="post.attributes.hero_image" :alt="post.attributes.title" class="blog-card__img">
+                        <img :src="post.attributes.hero_image" :alt="post.attributes.title" class="blog-card__img rounded-lg">
                     </div>
                     <h3 class="text-gray-500 mb-2">{{ formatDate(post.attributes.date) }}</h3>
                     <h2 class="text-2xl font-bold mb-4">{{ post.attributes.title }}</h2>

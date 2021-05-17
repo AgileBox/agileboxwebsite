@@ -1,6 +1,6 @@
 <template>
-    <section>
-        <div class="wrapper grid grid-cols-6 place-items-center mt-16 mb-16">
+    <section :class="{'bg-gray-800 text-white py-10': isDark}" class="relative my-16">
+        <div class="wrapper grid grid-cols-6 relative z-10 place-items-center">
             <div class="text col-start-2 col-span-4">
                 <div class="">
                     <h2
@@ -11,13 +11,19 @@
                     </h2>
                     <h3
                         v-if="subtitle"
-                        class="text-center text-xl text-gray-500 font-bold my-4"
+                        class="text-center text-xl font-bold my-4"
+                        :class="isDark ? 'text-white opacity-70' : 'text-gray-500'"
                     >
                         {{ subtitle }}
                     </h3>
                     <slot />
                 </div>
             </div>
+        </div>
+        <div
+            v-if="bgImage"
+            class="absolute top-0 left-0 h-full w-full">
+            <img :src="bgImage" class="h-full w-full object-cover object-top opacity-10">
         </div>
     </section>
 </template>
@@ -27,6 +33,8 @@ export default {
     props: {
         title: String,
         subtitle: String,
+        isDark: Boolean,
+        bgImage: String
     },
 }
 </script>
