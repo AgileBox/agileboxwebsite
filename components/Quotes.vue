@@ -4,27 +4,37 @@
             <li
                 v-for="(item, index) in quotesContent"
                 :key="index"
-                class="col-span-4 p-10 border border-gray-100 rounded-lg shadow-lg text-center text-lg font-medium"
+                class="col-span-4"
             >
-                <div class="font-serif text-9xl text-blue-500 -mb-14">
-                    &rdquo;
-                </div>
-                <p class=" text-gray-500 mb-4">
-                    {{ item.text }}
-                </p>
-                <p class="text-blue-500  uppercase mb-4">
-                    {{ item.name }}
-                </p>
-                <p class="text-gray-500 mb-4">
-                    {{ item.function }}
-                </p>
+                <Card class="text-center">
+                    <div class="font-serif text-9xl text-blue-500 -mb-14">
+                        &rdquo;
+                    </div>
+                    <p class=" text-gray-500 mb-4">
+                        {{ item.text }}
+                    </p>
+                    <p class="text-blue-500 uppercase mb-4">
+                        {{ item.name }}
+                    </p>
+                    <p class="text-gray-500 mb-4">
+                        {{ item.function }}
+                    </p>
+                </Card>
             </li>
         </ul>
     </div>
 </template>
 
 <script>
+
+import Card from '~/components/Card.vue'
+
 export default {
+
+    components: {
+        Card
+    },
+
     data: () => ({
         quotesContent: [
             {

@@ -4,6 +4,19 @@
         <div class="content">
             <nuxt />
         </div>
+        <footer class="bg-gray-800 text-white py-10">
+            <div class="wrapper flex justify-between items-center">
+                <div class="">
+                    &copy; AgileBox
+                </div>
+                <div class="">
+                    Polityka Prywatności
+                </div>
+                <div class="">
+                    Wykonanie:<br>Notka Ewa Perończyk
+                </div>
+            </div>
+        </footer>
     </section>
 </template>
 

@@ -1,5 +1,11 @@
 <template>
-    <section :class="{'bg-gray-800 text-white py-10': isDark}" class="relative my-16">
+    <section
+        :class="{
+            'bg-gray-800 text-white py-10': isDark,
+            'my-16': !isDark
+        }"
+        class="relative"
+    >
         <div class="wrapper grid grid-cols-6 relative z-10 place-items-center">
             <div class="text col-start-2 col-span-4">
                 <div class="">
