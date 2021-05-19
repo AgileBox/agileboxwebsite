@@ -29,10 +29,10 @@
 
 export default {
     props: {
-            heading: String,
-            image1: String,
-            image2: String
-        },
+        heading: String,
+        image1: String,
+        image2: String
+    },
 }
 </script>
 

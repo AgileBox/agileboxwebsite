@@ -1,6 +1,6 @@
 <template>
     <section class="layout">
-        <Header />
+        <Header :is-scrolled="isScrolled" />
         <div class="content">
             <nuxt />
         </div>
@@ -28,6 +28,16 @@ export default {
 
     components: {
         Header
+    },
+
+    data: () => ({
+        isScrolled: false
+    }),
+
+    mounted() {
+        window.addEventListener('scroll', () => {
+            this.isScrolled = document.documentElement.scrollTop !== 0;
+        })
     },
 }
 </script>

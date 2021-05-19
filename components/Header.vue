@@ -1,5 +1,10 @@
 <template>
-    <header class="header fixed w-full z-50 border-b border-gray-500 border-opacity-25">
+    <header
+        class="header fixed w-full z-50 border-b border-gray-500 border-opacity-25"
+        :class="{
+            'bg-gray-800 border-none': isScrolled
+        }"
+    >
         <div class="wrapper h-1/5 flex flex-row justify-between items-center">
             <div class="logo">
                 Logo
@@ -23,6 +28,10 @@
 
 <script>
 export default {
+    props: {
+        isScrolled: Boolean,
+    },
+
     data: () => ({
         menuItems: [
             {
