@@ -1,6 +1,6 @@
 <template>
     <section class="layout">
-        <Header :is-info-page="isInfoPage" />
+        <Header />
         <div class="content">
             <nuxt />
         </div>
@@ -28,12 +28,6 @@ export default {
 
     components: {
         Header
-    },
-
-    computed: {
-        isInfoPage() {
-            return this.$nuxt._route.name === "info" && true
-        }
     },
 }
 </script>

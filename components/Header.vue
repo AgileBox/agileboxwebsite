@@ -31,7 +31,7 @@ export default {
             },
             {
                 name: "O nas",
-                to: "/"
+                to: "/info"
             },
             {
                 name: "Oferta",

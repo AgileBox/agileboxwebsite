@@ -1,7 +1,14 @@
 <template>
     <div>
         <Banner />
-        <TextAndImage />
+        <TextAndImage
+            :image1="require('~/static/DSC_6102pp.jpg')"
+            :image2="require('~/static/DSC_6102pp.jpg')"
+            heading="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        >
+            <p class="text-gray-500 mb-8">Fugit quas, maiores debitis ut beatae quibusdam, dignissimos aliquid aspernatur temporibus tempore non suscipit necessitatibus alias quidem accusantium voluptatum laborum doloribus quasi?</p>
+            <Btn />
+        </TextAndImage>
         <BlogList :posts="posts" />
         <div class="bg-gray-50 pb-10">
             <HeaderAndText
