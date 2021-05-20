@@ -1,6 +1,6 @@
 <template>
 
-    <div class="p-10 border border-gray-100 rounded-lg shadow-lg text-lg font-medium">
+    <div class="p-4 lg:p-10 border border-gray-100 rounded-lg shadow-lg text-lg font-medium">
         <slot />
     </div>
 

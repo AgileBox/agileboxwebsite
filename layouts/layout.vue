@@ -17,22 +17,37 @@
                 </div>
             </div>
         </footer>
+        <a
+            v-if="isScrolled"
+            class="fixed flex items-center justify-center right-8 bottom-20 bg-blue-500 border border-transparent w-14 h-14 rounded-full z-99 cursor-pointer"
+            @click.prevent="scrollTop"
+        >
+            <Icon glyph="arrow-up" class="text-xl text-white" />
+        </a>
     </section>
 </template>
 
 <script>
 import Header from '~/components/Header.vue'
+import Icon from '~/components/Icon.vue'
 
 export default {
     name: 'Layout',
 
     components: {
-        Header
+        Header,
+        Icon
     },
 
     data: () => ({
         isScrolled: false
     }),
+
+    methods: {
+        scrollTop() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        }
+    },
 
     mounted() {
         window.addEventListener('scroll', () => {
