@@ -5,7 +5,7 @@
             <li
                 v-for="post in sortedPosts"
                 :key="post.attributes.title"
-                class="col-span-4"
+                class="col-span-12 md:col-span-4"
             >
                 <NuxtLink
                     class="blog-card"

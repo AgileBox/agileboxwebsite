@@ -4,7 +4,7 @@
             <li
                 v-for="(item, index) in quotesContent"
                 :key="index"
-                class="col-span-4"
+                class="col-span-12 md:col-span-4"
             >
                 <Card class="text-center">
                     <div class="font-serif text-9xl text-blue-500 -mb-14">
