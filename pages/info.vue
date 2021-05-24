@@ -1,6 +1,12 @@
 <template>
     <section class="aboutUs">
-        <BannerSubpage />
+        <BannerSubpage
+            title="O nas"
+            :breadcrumb-items="[
+                {name: 'Home', href: '/'},
+                {name: 'O nas'}
+            ]"
+        />
         <TextAndImage
             :image1="require('~/static/DSC_6102pp.jpg')"
             :image2="require('~/static/DSC_6102pp.jpg')"
@@ -13,7 +19,7 @@
                 <div class="col-span-12 sm:col-span-5">
                     <h2 class="text-xl font-bold text-gray-700 pb-2">Więcej o</h2>
                     <h1 class="text-4xl font-extrabold text-blue-500 mb-8">Luizie</h1>
-                        <p class="text-gray-500 mb-8">Fugit quas, maiores debitis ut beatae quibusdam, dignissimos aliquid aspernatur temporibus tempore non suscipit necessitatibus alias quidem accusantium voluptatum laborum doloribus quasi?</p>
+                    <p class="text-gray-500 mb-8">Fugit quas, maiores debitis ut beatae quibusdam, dignissimos aliquid aspernatur temporibus tempore non suscipit necessitatibus alias quidem accusantium voluptatum laborum doloribus quasi?</p>
                 </div>
                 <div class="img col-span-12 sm:col-span-7 pl-16">
                     <img src="~/static/DSC_6102pp.jpg" class="shadow-2xl rounded-lg">
@@ -28,7 +34,7 @@
                 <div class="col-span-12 sm:col-span-5">
                     <h2 class="text-xl font-bold text-gray-700 pb-2">Więcej o</h2>
                     <h1 class="text-4xl font-extrabold text-blue-500 mb-8">Dorocie</h1>
-                        <p class="text-gray-500 mb-8">Fugit quas, maiores debitis ut beatae quibusdam, dignissimos aliquid aspernatur temporibus tempore non suscipit necessitatibus alias quidem accusantium voluptatum laborum doloribus quasi?</p>
+                    <p class="text-gray-500 mb-8">Fugit quas, maiores debitis ut beatae quibusdam, dignissimos aliquid aspernatur temporibus tempore non suscipit necessitatibus alias quidem accusantium voluptatum laborum doloribus quasi?</p>
                 </div>
             </div>
         </div>

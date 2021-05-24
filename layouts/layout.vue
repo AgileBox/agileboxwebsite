@@ -9,9 +9,9 @@
                 <div class="">
                     &copy; AgileBox
                 </div>
-                <div class="">
+                <NuxtLink to="/privacy" class="">
                     Polityka Prywatności
-                </div>
+                </NuxtLink>
                 <div class="">
                     Wykonanie:<br>Notka Ewa Perończyk
                 </div>

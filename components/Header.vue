@@ -6,9 +6,9 @@
         }"
     >
         <div class="wrapper h-1/5 flex flex-row justify-between items-center">
-            <div class="logo">
-                Logo
-            </div>
+            <NuxtLink to="/" class="logo text-2xl font-bold tracking-widest">
+                AgileBox
+            </NuxtLink>
 
             <nav class="nav">
                 <ul class="flex flex-row">
@@ -16,7 +16,7 @@
                         v-for="(item, index) in menuItems"
                         :key="index"
                     >
-                        <NuxtLink :to="item.to" class="[ block p-6 font-medium hover:text-blue-500 transition-all ] nav__item">
+                        <NuxtLink :to="item.to" class="[ block p-6 font-medium hover:text-blue-200 transition-all ] nav__item">
                             {{ item.name }}
                         </NuxtLink>
                     </li>
@@ -44,7 +44,7 @@ export default {
             },
             {
                 name: "Oferta",
-                to: "/"
+                to: "/offer"
             },
             {
                 name: "Blog",
@@ -52,7 +52,7 @@ export default {
             },
             {
                 name: "Kontakt",
-                to: "/"
+                to: "/contact"
             },
         ]
     })
@@ -70,7 +70,7 @@ export default {
         bottom: 0;
         width: 0;
         height: 2px;
-        background-color: black;
+        background-color: rgb(59, 130, 246);
         transition: all .2s;
         opacity: 0;
     }
