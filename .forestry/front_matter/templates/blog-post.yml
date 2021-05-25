@@ -29,6 +29,10 @@ fields:
 - type: file
   name: hero_image
   label: hero_image
+- name: label
+  type: tag_list
+  default: []
+  label: Label
 pages:
 - content/blog-posts/an-essay-on-walking.md
 - content/blog-posts/ne-te-quaesiveris-extra.md
