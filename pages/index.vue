@@ -4,14 +4,14 @@
         <TextAndImage
             :image1="require('~/static/DSC_6102pp.jpg')"
             :image2="require('~/static/DSC_6102pp.jpg')"
-            heading="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            heading="Kilka słów o nas"
         >
-            <p class="text-gray-500 mb-8">Fugit quas, maiores debitis ut beatae quibusdam, dignissimos aliquid aspernatur temporibus tempore non suscipit necessitatibus alias quidem accusantium voluptatum laborum doloribus quasi?</p>
+            <p class="text-gray-500 mb-8">Poznałyśmy się 2018 roku w William Hill gdzie prowadziłyśmy wspólnie transformację Agilową w ponad 50 zespołach pracujących w różnych lokalizacjach w Krakowie, Leeds, Londynie i na Gibraltarze. Szybko okazało się, że mamy wiele wspólnego, a szczególnie pasję do dzielenia się wiedzą i wspierania Scrum Masterów, Product Ownerów i managerów w ich codziennej pracy.</p>
             <Btn href="/info" />
         </TextAndImage>
         <BlogList :posts="posts" />
         <div class="bg-gray-50 pb-10">
-            <HeaderAndText
+            <!-- <HeaderAndText
                 class="text-center"
                 title="Co robimy"
                 subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit."
@@ -20,7 +20,7 @@
                     Fugit quas, maiores debitis ut beatae quibusdam, dignissimos aliquid aspernatur temporibus tempore non suscipit necessitatibus alias quidem accusantium voluptatum laborum doloribus quasi? Temporibus, repellat, natus fuga labore expedita ducimus perferendis consequatur facere nostrum voluptatum commodi repellendus itaque, quos modi voluptatibus tempora deleniti iure mollitia.
                 </p>
                 <Btn href="/offer" />
-            </HeaderAndText>
+            </HeaderAndText> -->
             <HeaderAndText
                 title="Rekomendacje"
                 subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quas, maiores debitis ut beatae quibusdam."

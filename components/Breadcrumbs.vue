@@ -1,11 +1,19 @@
 <template>
-    <nav aria-label="Breadcrumb" class="breadcrumbs">
-        <ul>
-            <li v-for="(item, itemIndex) in items" :key="itemIndex">
-                <a v-if="item.href" :href="item.href">
+    <nav aria-label="Breadcrumb" class="breadcrumbs p-4">
+        <ul class="flex">
+            <li
+                v-for="(item, itemIndex) in items"
+                :key="itemIndex"
+                class="flex text-white text-xs"
+            >
+                <a
+                    v-if="item.href"
+                    :href="item.href"
+                    class="text-white text-opacity-60 p-2 hover:text-blue-200 transition-all duration-200"
+                >
                     {{ item.name }}
                 </a>
-                <span v-else>
+                <span v-else class="p-2">
                     {{ item.name }}
                 </span>
             </li>
@@ -22,41 +30,47 @@ export default {
 </script>
 
 <style lang="scss">
-    .breadcrumbs {
-        padding: 10px;
+.breadcrumbs {
+    ul {
+        li {
+            &::after {
+                content: '';
+                display: inline-block;
+                margin: 0 14px;
+                width: 1px;
+                height: 80%;
+                background-color: #fff;
+                opacity: .6;
+                transform: rotate(30deg);
+            }
 
-        ul {
-            display: flex;
-
-            li {
-                display: flex;
-                color: #fff;
-                font-size: .8rem;
-
+            &:last-child {
                 &::after {
-                    content: '';
-                    display: inline-block;
-                    margin: 0 14px;
-                    width: 1px;
-                    height: 80%;
-                    background-color: #fff;
-                    opacity: .6;
-                    transform: rotate(30deg);
-                }
-
-                &:last-child {
-                    &::after {
-                        display: none;
+                    display: none;
                 }
             }
 
             a {
-                color: #fff;
-                opacity: .6;
-                transition: .2s;
+                position: relative;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    width: 0;
+                    height: 2px;
+                    background-color: rgb(59, 130, 246);
+                    transition: all .3s;
+                    opacity: 0;
+                }
 
                 &:hover {
-                    color: rgb(59, 130, 246);
+                    &::after {
+                        color: rgb(191, 219, 254);
+                        width: 100%;
+                        opacity: 1;
+                    }
                 }
             }
         }

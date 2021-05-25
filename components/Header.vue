@@ -42,10 +42,10 @@ export default {
                 name: "O nas",
                 to: "/info"
             },
-            {
-                name: "Oferta",
-                to: "/offer"
-            },
+            // {
+            //     name: "Oferta",
+            //     to: "/offer"
+            // },
             {
                 name: "Blog",
                 to: "/"
@@ -71,7 +71,7 @@ export default {
         width: 0;
         height: 2px;
         background-color: rgb(59, 130, 246);
-        transition: all .2s;
+        transition: all .3s;
         opacity: 0;
     }
 

@@ -38,19 +38,19 @@ export default {
     data: () => ({
         quotesContent: [
             {
-                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam laborum harum rerum. Architecto aperiam perspiciatis at alias autem quo ab corporis iusto, sit saepe labore fugiat debitis odio quis voluptates!",
-                name: "Jan Kowalski",
-                function: "CEO"
+                text: "Dorota is an expert in agile methodologies and software testing with both huge knowledge and experience with working in various environments, different teams and nationalities. As a result of this combination and great mentoring skills, teams led by Dorota are growing, learning and performing.",
+                name: "Konrad",
+                function: "Senior Software Engineer"
             },
             {
-                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam laborum harum rerum. Architecto aperiam perspiciatis at alias autem quo ab corporis iusto",
-                name: "Jan Kowalski",
-                function: "CEO"
+                text: "I'd like to thank Luiza for helping me keep in mind that people are the biggest asset of the company and that success is dependent on how we involve people on that mission.",
+                name: "Andrzej",
+                function: "Director of Engineering"
             },
             {
-                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam laborum harum rerum. Architecto aperiam perspiciatis at alias autem quo ab corporis iusto, sit saepe labore fugiat debitis odio quis voluptates!",
-                name: "Jan Kowalski",
-                function: "CEO"
+                text: "Dorota is always actively looking for areas of improvement and has a ready toolkit with suitable techniques to hand. She built strong business relationships with the team members and is able to get them to adopt new approaches. I saw a measurable difference in the teams she coached.",
+                name: "Sharon",
+                function: "Programme Manager"
             },
         ]
     })
