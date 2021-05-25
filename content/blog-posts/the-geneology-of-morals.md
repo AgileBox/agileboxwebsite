@@ -4,6 +4,7 @@ title: Agile Swarming 2021
 slug: the-geneology-of-morals
 date: 2021-04-21T07:00:00Z
 hero_image: "/rzut-murala.jpg"
+label: []
 
 ---
 Tydzień temu miałyśmy przyjemność pracować ze zwinnymi liderami podczas naszych warsztatów "Leading Through Change" w ramach Agile Swarming 2021!
