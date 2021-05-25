@@ -1,5 +1,5 @@
 ---
-author: Friedrich Nietzsche
+author: Agile Box
 title: Agile Swarming 2021
 slug: the-geneology-of-morals
 date: 2021-04-21T07:00:00Z
