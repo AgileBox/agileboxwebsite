@@ -17,8 +17,8 @@
                     </h2>
                     <h3
                         v-if="subtitle"
-                        class="text-center text-xl font-bold my-4"
                         :class="isDark ? 'text-white opacity-70' : 'text-gray-500'"
+                        class="text-center text-xl font-bold my-4"
                     >
                         {{ subtitle }}
                     </h3>

@@ -1,9 +1,9 @@
 <template>
     <header
-        class="header fixed w-full text-white z-50 border-b border-gray-500 border-opacity-25 transition-all duration-300"
         :class="{
             'bg-gray-800 border-none shadow-lg': isScrolled
         }"
+        class="header fixed w-full text-white z-50 border-b border-gray-500 border-opacity-25 transition-all duration-300"
     >
         <div class="wrapper h-1/5 flex flex-row justify-between items-center">
             <NuxtLink to="/" class="logo text-2xl font-bold tracking-widest">

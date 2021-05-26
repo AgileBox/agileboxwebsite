@@ -43,16 +43,16 @@ export default {
         isScrolled: false
     }),
 
-    methods: {
-        scrollTop() {
-            window.scrollTo({top: 0, behavior: 'smooth'});
-        }
-    },
-
     mounted() {
         window.addEventListener('scroll', () => {
             this.isScrolled = document.documentElement.scrollTop !== 0;
         })
+    },
+
+    methods: {
+        scrollTop() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        }
     },
 }
 </script>

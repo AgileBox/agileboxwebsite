@@ -18,6 +18,8 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
-    "vue/comment-directive": 0
+    'vue/comment-directive': 0,
+    'vue/require-default-prop': 0,
+    'vue/attributes-order': 0
   }
 }

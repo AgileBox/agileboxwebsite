@@ -2,13 +2,14 @@
 author: Agile Box
 label: []
 title: 'Marilee Adams: Myślenie pytaniami'
+slug: marilee-adams-myslenie-pytaniami
 date: 2021-05-24T22:00:00Z
 hero_image: "/myslenie-pytaniami.png"
 
 ---
-Czy znasz książkę Marilee Adams pt. „Myślenie pytaniami”? 
+Czy znasz książkę Marilee Adams pt. „Myślenie pytaniami”?
 
-Dla mnie była ona wielkim odkryciem i nauczyła mnie, że zadawanie sobie właściwych pytań pomaga rozwijać się szybciej, rozumieć więcej i wybierać lepiej. 
+Dla mnie była ona wielkim odkryciem i nauczyła mnie, że zadawanie sobie właściwych pytań pomaga rozwijać się szybciej, rozumieć więcej i wybierać lepiej.
 
 Adams mówi, że właściwe pytania zmieniają sposób, w jaki myślimy o sobie i świecie. Radzi, jak zmienić nasze pytania, aby nas nie ograniczały, ale pozwoliły zobaczyć więcej opcji i szans.
 

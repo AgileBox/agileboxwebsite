@@ -2,6 +2,7 @@
 author: Agile Box
 label: []
 title: O zarządzaniu zmianą, przemianach i AgileSwarming
+slug: o-zarzadzaniu-zmiana-przemianach-i-agileswarming
 date: 2021-05-03T22:00:00Z
 hero_image: "/polecana-literatura.jpg"
 

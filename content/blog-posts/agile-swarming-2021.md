@@ -1,7 +1,7 @@
 ---
 author: Agile Box
 title: Agile Swarming 2021
-slug: the-geneology-of-morals
+slug: agile-swarming-2021
 date: 2021-04-21T07:00:00Z
 hero_image: "/rzut-murala.jpg"
 label: []
@@ -17,4 +17,4 @@ Była to świetna okazja do:
 * Zrozumienia jak działa mózg w zmianie i jakie są tego konsekwencje,
 * Odkrywania zachowań lidera, które wspierają oraz tych, które hamują proces transformacji (tzw. DOs/DON'Ts) w poszczególnych etapach zmiany.
 
-Jeszcze raz dziękujemy uczestnikom za wspólnie spędzony czas i wspaniały feedback oraz życzymy powodzenia w prowadzeniu swoich zespołów i całych organizacji przez proces zmiany!‍ 
+Jeszcze raz dziękujemy uczestnikom za wspólnie spędzony czas i wspaniały feedback oraz życzymy powodzenia w prowadzeniu swoich zespołów i całych organizacji przez proces zmiany!‍
