@@ -1,9 +1,9 @@
 <template>
     <div class="banner-subpage relative bg-gray-800 text-white">
-        <img src="~/static/DSC_6409pp3.jpg" class="h-full w-full object-cover object-top absolute opacity-20">
+        <img :src="image" class="h-full w-full object-cover object-top absolute opacity-50">
         <div class="wrapper h-full relative z-10 flex justify-center items-center">
             <div class="text-center">
-                <h1 class="text-4xl font-bold mb-6">
+                <h1 class="text-4xl font-bold mb-2">
                     {{ title }}
                 </h1>
                 <Breadcrumbs
@@ -26,6 +26,7 @@ export default {
 
     props: {
         title: String,
+        image: String,
         breadcrumbItems: Array
     }
 }

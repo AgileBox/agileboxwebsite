@@ -13,10 +13,10 @@
                     <p class=" text-gray-500 mb-4">
                         {{ item.text }}
                     </p>
-                    <p class="text-blue-500 uppercase mb-4">
+                    <p class="text-blue-500 uppercase mb-1">
                         {{ item.name }}
                     </p>
-                    <p class="text-gray-500 mb-4">
+                    <p class="text-gray-500 text-sm">
                         {{ item.function }}
                     </p>
                 </Card>

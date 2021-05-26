@@ -48,7 +48,7 @@ export default {
             // },
             {
                 name: "Blog",
-                to: "/"
+                to: "/blog"
             },
             {
                 name: "Kontakt",

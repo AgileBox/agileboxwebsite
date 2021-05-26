@@ -2,6 +2,7 @@
     <section class="aboutUs">
         <BannerSubpage
             title="O nas"
+            :image="require('~/static/DSC_6238pp 2.jpg')"
             :breadcrumb-items="[
                 {name: 'Home', href: '/'},
                 {name: 'O nas'}
