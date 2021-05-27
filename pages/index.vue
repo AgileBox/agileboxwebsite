@@ -3,7 +3,7 @@
         <Banner />
         <TextAndImage
             :image1="require('~/static/DSC_6102pp.jpg')"
-            :image2="require('~/static/DSC_6102pp.jpg')"
+            :image2="require('~/static/negative-space-macbook.jpg')"
             heading="Kilka słów o nas"
         >
             <p class="text-gray-500 mb-8">Poznałyśmy się 2018 roku w William Hill gdzie prowadziłyśmy wspólnie transformację Agilową w ponad 50 zespołach pracujących w różnych lokalizacjach w Krakowie, Leeds, Londynie i na Gibraltarze. Szybko okazało się, że mamy wiele wspólnego, a szczególnie pasję do dzielenia się wiedzą i wspierania Scrum Masterów, Product Ownerów i managerów w ich codziennej pracy. </p>
@@ -31,7 +31,7 @@
             class="text-center"
             title="Newsletter"
             subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-            :bg-image="require('~/static/DSC_6102pp.jpg')"
+            :bg-image="require('~/static/kadr.jpg')"
             is-dark
         >
             <Newsletter />
@@ -45,7 +45,7 @@
         <div class="wrapper grid grid-cols-12 gap-8 mb-16">
             <Card class="col-span-12 md:col-span-4">
                 <div class="flex items-center xl:items-start flex-col xl:flex-row">
-                    <Icon glyph="map" class="text-5xl text-blue-500 mr-8 mb-4 xl:mb-0" />
+                    <Icon glyph="laptop-phone" class="text-5xl text-blue-500 mr-8 mb-4 xl:mb-0" />
                     <div>
                         <h4 class="mb-4">Adres</h4>
                         <p class="text-gray-500">ul Jakastam<br>Kraków</p>

@@ -3,23 +3,29 @@
         <template v-if="post">
             <BannerSubpage
                 :title="post.attributes.title"
-                :image="post.attributes.hero_image"
                 :breadcrumb-items="[
                     {name: 'Home', href: '/'},
-                    {name: 'Blog'}
+                    {name: 'Blog', href: '/blog'},
+                    {name: 'Wpis'}
                 ]"
             />
+            <div class="wrapper grid grid-cols-12 place-items-center mt-16 mb-4 md:mb-16">
+                <div class="col-start-3 col-span-8">
+                    <div class="text-blue-500 text-sm py-6">
+                        <h3>{{ formatDate(post.attributes.date) }}</h3>
+                    </div>
+                    <div class="mb-10 shadow-2xl">
+                        <img :src="post.attributes.hero_image" class="rounded-lg">
+                    </div>
 
-            <div>
-                <h3>{{ formattedDate }}</h3>
-            </div>
+                    <div v-html="post.html" class="article"></div>
 
-            <div v-html="post.html"></div>
-
-            <div v-if="nextBlogPath">
-                <NuxtLink :to="`/blog/${nextBlogPath}`">
-                    Next &gt;
-                </NuxtLink>
+                    <!-- <div v-if="nextBlogPath">
+                        <NuxtLink :to="`/blog/${nextBlogPath}`">
+                            Next &gt;
+                        </NuxtLink>
+                    </div> -->
+                </div>
             </div>
         </template>
 
@@ -97,5 +103,14 @@ export default {
             return false
         }
     },
+    methods: {
+        padTwo(num) {
+            return String(num).padStart(2, '0');
+        },
+        formatDate(date) {
+            const dateObj = new Date(date)
+            return `${dateObj.getFullYear()}-${this.padTwo(dateObj.getMonth())}-${this.padTwo(dateObj.getDate())}`
+        },
+    }
 }
 </script>

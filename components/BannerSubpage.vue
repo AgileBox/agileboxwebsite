@@ -1,8 +1,17 @@
 <template>
-    <div class="banner-subpage relative bg-gray-800 text-white">
-        <img :src="image" class="h-full w-full object-cover object-top absolute opacity-50">
+    <div
+        :class="{
+            'banner-subpage--has-img': image
+        }"
+        class="banner-subpage relative bg-gray-800 text-white"
+        >
+        <img
+            v-if="image"
+            :src="image"
+            class="h-full w-full object-cover object-top absolute opacity-50"
+        >
         <div class="wrapper h-full relative z-10 flex justify-center items-center">
-            <div class="text-center">
+            <div class="text-center pt-20">
                 <h1 class="text-4xl font-bold mb-2">
                     {{ title }}
                 </h1>
@@ -34,8 +43,13 @@ export default {
 
 <style lang="scss">
 .banner-subpage {
-    height: 50vh;
-    min-height: 400px;
+    height: 30vh;
+    min-height: 200px;
+
+    &--has-img {
+        height: 50vh;
+        min-height: 400px;
+    }
 }
 
 </style>

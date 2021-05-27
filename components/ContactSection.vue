@@ -2,7 +2,7 @@
     <div class="wrapper grid grid-cols-12 gap-8 mb-16">
             <Card class="col-span-12 md:col-span-4">
                 <div class="flex items-center xl:items-start flex-col xl:flex-row">
-                    <Icon glyph="map" class="text-5xl text-blue-500 mr-8 mb-4 xl:mb-0" />
+                    <Icon glyph="laptop-phone" class="text-5xl text-blue-500 mr-8 mb-4 xl:mb-0" />
                     <div>
                         <h4 class="mb-4">Adres</h4>
                         <p class="text-gray-500">ul Jakastam<br>Kraków</p>

@@ -60,7 +60,7 @@ export default {
                     bottom: 0;
                     width: 0;
                     height: 2px;
-                    background-color: rgb(59, 130, 246);
+                    background-color: rgb(191, 219, 254);
                     transition: all .3s;
                     opacity: 0;
                 }

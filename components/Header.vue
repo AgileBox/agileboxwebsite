@@ -3,7 +3,7 @@
         :class="{
             'bg-gray-800 border-none shadow-lg': isScrolled
         }"
-        class="header fixed w-full text-white z-50 border-b border-gray-500 border-opacity-25 transition-all duration-300"
+        class="header fixed w-full text-white z-50 border-b border-white border-opacity-20 transition-all duration-300"
     >
         <div class="wrapper h-1/5 flex flex-row justify-between items-center">
             <NuxtLink to="/" class="logo text-2xl font-bold tracking-widest">
@@ -70,7 +70,7 @@ export default {
         bottom: 0;
         width: 0;
         height: 2px;
-        background-color: rgb(59, 130, 246);
+        background-color: rgb(191, 219, 254);
         transition: all .3s;
         opacity: 0;
     }
