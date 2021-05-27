@@ -1,16 +1,19 @@
 <template>
     <div>
         <Banner />
+
         <TextAndImage
             :image1="require('~/static/DSC_6102pp.jpg')"
             :image2="require('~/static/negative-space-macbook.jpg')"
             heading="Kilka słów o nas"
         >
-            <p class="text-gray-500 mb-8">Poznałyśmy się 2018 roku w William Hill gdzie prowadziłyśmy wspólnie transformację Agilową w ponad 50 zespołach pracujących w różnych lokalizacjach w Krakowie, Leeds, Londynie i na Gibraltarze. Szybko okazało się, że mamy wiele wspólnego, a szczególnie pasję do dzielenia się wiedzą i wspierania Scrum Masterów, Product Ownerów i managerów w ich codziennej pracy. </p>
+            <p class="text-gray-500 mb-8">Poznałyśmy się 2018 roku w William Hill gdzie prowadziłyśmy wspólnie transformację Agilową w ponad 50 zespołach pracujących w różnych lokalizacjach w Krakowie, Leeds, Londynie i na Gibraltarze. Szybko okazało się, że mamy wiele wspólnego, a szczególnie pasję do dzielenia się wiedzą i wspierania Scrum Masterów, Product Ownerów i managerów w ich codziennej pracy.</p>
             <Btn />
         </TextAndImage>
+
         <BlogList title="Przeczytaj" :posts="posts" :num="3" />
-        <div class="bg-gray-50 pb-10">
+
+        <div class="bg-gray-50 overflow-hidden">
             <!-- <HeaderAndText
                 class="text-center"
                 title="Co robimy"
@@ -27,8 +30,8 @@
             />
             <Quotes />
         </div>
+
         <HeaderAndText
-            class="text-center"
             title="Newsletter"
             subtitle="Zapisz się do naszego newlettera"
             :bg-image="require('~/static/kadr.jpg')"
@@ -36,11 +39,11 @@
         >
             <Newsletter />
         </HeaderAndText>
+
         <HeaderAndText
-            class="text-center"
             title="Kontakt"
-        >
-        </HeaderAndText>
+        />
+
         <ContactSection />
     </div>
 </template>

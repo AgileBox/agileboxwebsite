@@ -1,22 +1,25 @@
 <template>
     <section class="layout">
         <Header :is-scrolled="isScrolled" />
+
         <div class="content">
             <nuxt />
         </div>
+
         <footer class="bg-gray-800 text-white text-xs sm:text-base py-10">
-            <div class="wrapper flex justify-between items-center">
-                <div class="">
+            <div class="wrapper flex justify-between items-center opacity-60 text-xs">
+                <div>
                     &copy; AgileBox
                 </div>
-                <NuxtLink to="/privacy" class="">
+                <NuxtLink to="/privacy">
                     Polityka Prywatności
                 </NuxtLink>
-                <div class="">
+                <div>
                     Wykonanie:<br>Notka Ewa Perończyk
                 </div>
             </div>
         </footer>
+
         <a
             v-if="isScrolled"
             class="fixed flex items-center justify-center right-8 bottom-20 bg-blue-500 border border-transparent w-10 h-10 lg:w-14 lg:h-14 rounded-full z-99 cursor-pointer"

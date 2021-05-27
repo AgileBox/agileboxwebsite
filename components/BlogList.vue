@@ -13,7 +13,7 @@
                 class="col-span-12 md:col-span-4"
             >
                 <NuxtLink
-                    :to="`/blog/${formatSlug(post.attributes.title)}`"
+                    :to="`/blog/${post.attributes.slug || formatSlug(post.attributes.title)}`"
                     class="blog-card"
                 >
                     <div class="overflow-hidden bg-gray-800 mb-6 h-60 rounded-lg shadow-2xl">
