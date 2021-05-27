@@ -40,8 +40,8 @@
         <div class="bg-gray-50 py-10">
             <div class="wrapper grid grid-cols-12 place-items-center mt-16 mb-6">
                 <div class="col-span-12 sm:col-span-5">
-                    <h2 class="text-xl font-bold text-gray-700 pb-2">Więcej o</h2>
-                    <h1 class="text-4xl font-extrabold text-blue-500 mb-8">Luizie</h1>
+                    <!-- <h2 class="text-xl font-bold text-gray-700 pb-2">Więcej o</h2> -->
+                    <h1 class="text-4xl font-extrabold text-blue-500 mb-8">Luiza Lipień</h1>
                     <p class="text-gray-500 mb-8">Z IT jestem związana od 15 lat. Pełniłam różne funkcje, od kierownika projektu, szefa działu Scrum Masterów, managera działu deweloperskiego, po szefa Agile Coachów. Brałam udział w wielu transformacjach i zmianach organizacyjnych (m.in. w Allegro, PayU, William Hill, GlaxoSmithKline). Dzięki tym doświadczeniom nauczyłam się w jaki sposób tworzyć i wspierać budowanie środowiska, które służy rozwojowi zespołów i jednostek, pozwala im rosnąć i odnosić sukcesy. Nauczyłam się jak być liderem w trudnych i zmiennych warunkach.<br>
                     Obecnie dzielę się swoją wiedzą z innymi - jestem coachem i trenerem zespołów, liderów i managerów w zakresie najlepszych praktyk Lean, Agile, HR oraz rozwoju osobistego.</p>
                 </div>
@@ -56,8 +56,8 @@
                     <img src="~/static/DSC_6423pp2.jpg" class="shadow-2xl rounded-lg">
                 </div>
                 <div class="col-span-12 sm:col-span-5">
-                    <h2 class="text-xl font-bold text-gray-700 pb-2">Więcej o</h2>
-                    <h1 class="text-4xl font-extrabold text-blue-500 mb-8">Dorocie</h1>
+                    <!-- <h2 class="text-xl font-bold text-gray-700 pb-2">Więcej o</h2> -->
+                    <h1 class="text-4xl font-extrabold text-blue-500 mb-8">Dorota Sternalska</h1>
                     <p class="text-gray-500 mb-8">Swoją przygodę z IT rozpoczęłam 10 lat temu od testowania radiotelefonów dla służb publicznych. Byłam liderem zespołu testowego odpowiedzialnego za strategię testową i koordynowanie testów dla 10 zespołów pracujących nad jednym produktem.<br>
                     Od tamtej pory rozwijam swoje liderskie kompetencje promując zwinne podejście w organizacjach, pracując z zespołami i managerami nad dostarczaniem wartościowych produktów w bardziej efektywny sposób.
 </p>

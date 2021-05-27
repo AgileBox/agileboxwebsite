@@ -10,7 +10,6 @@
         />
         <HeaderAndText
             title="Kontakt"
-            subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quas, maiores debitis ut beatae quibusdam."
         />
         <Quotes />
         <ContactSection />

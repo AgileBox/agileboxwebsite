@@ -23,14 +23,14 @@
             </HeaderAndText> -->
             <HeaderAndText
                 title="Rekomendacje"
-                subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quas, maiores debitis ut beatae quibusdam."
+                subtitle="Przeczytaj co o współpracy z nami mówią inni:"
             />
             <Quotes />
         </div>
         <HeaderAndText
             class="text-center"
             title="Newsletter"
-            subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            subtitle="Zapisz się do naszego newlettera"
             :bg-image="require('~/static/kadr.jpg')"
             is-dark
         >
@@ -39,38 +39,9 @@
         <HeaderAndText
             class="text-center"
             title="Kontakt"
-            subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit."
         >
         </HeaderAndText>
-        <div class="wrapper grid grid-cols-12 gap-8 mb-16">
-            <Card class="col-span-12 md:col-span-4">
-                <div class="flex items-center xl:items-start flex-col xl:flex-row">
-                    <Icon glyph="laptop-phone" class="text-5xl text-blue-500 mr-8 mb-4 xl:mb-0" />
-                    <div>
-                        <h4 class="mb-4">Adres</h4>
-                        <p class="text-gray-500">ul Jakastam<br>Kraków</p>
-                    </div>
-                </div>
-            </Card>
-            <Card class="col-span-12 md:col-span-4">
-                <div class="flex items-center xl:items-start flex-col xl:flex-row">
-                    <Icon glyph="phone-handset" class="text-5xl text-blue-500 mr-8 mb-4 xl:mb-0" />
-                    <div>
-                        <h4 class="mb-4">Telefon</h4>
-                        <p class="text-gray-500">333 654 678<br>666 888 999</p>
-                    </div>
-                </div>
-            </Card>
-            <Card class="col-span-12 md:col-span-4">
-                <div class="flex items-center xl:items-start flex-col xl:flex-row">
-                    <Icon glyph="laptop" class="text-5xl text-blue-500 mr-8 mb-4 xl:mb-0" />
-                    <div>
-                        <h4 class="mb-4">E-mail</h4>
-                        <p class="text-gray-500">kontakt@agilebox.pl</p>
-                    </div>
-                </div>
-            </Card>
-        </div>
+        <ContactSection />
     </div>
 </template>
 
@@ -82,8 +53,7 @@ import HeaderAndText from '~/components/HeaderAndText.vue'
 import Quotes from '~/components/Quotes.vue'
 import Btn from '~/components/Btn.vue'
 import Newsletter from '~/components/Newsletter.vue'
-import Card from '~/components/Card.vue'
-import Icon from '~/components/Icon.vue'
+import ContactSection from '~/components/ContactSection.vue'
 
 export default {
     layout: 'layout',
@@ -96,8 +66,7 @@ export default {
         Quotes,
         Btn,
         Newsletter,
-        Card,
-        Icon
+        ContactSection
     },
 
     async asyncData() {
