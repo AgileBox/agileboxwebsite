@@ -18,8 +18,8 @@
             </p>
         </HeaderAndText>
         <TextAndImage
-            :image1="require('~/static/DSC_6102pp.jpg')"
-            :image2="require('~/static/DSC_6102pp.jpg')"
+            :image1="require('~/static/DSC_6322pp.jpg')"
+            :image2="require('~/static/DSC_6254pp.jpg')"
         >
             <p class="text-gray-500">
                 Gdybyśmy miały przedstawić nasze wspólne doświadczenie w liczbach, to byłoby to w sumie:
