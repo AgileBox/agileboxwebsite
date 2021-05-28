@@ -26,11 +26,9 @@
 </template>
 
 <script>
-
 import Card from '~/components/Card.vue'
 
 export default {
-
     components: {
         Card
     },
@@ -55,8 +53,3 @@ export default {
     })
 }
 </script>
-
-<style lang="scss">
-
-
-</style>

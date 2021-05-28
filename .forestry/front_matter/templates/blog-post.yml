@@ -2,15 +2,23 @@
 label: Blog Post
 hide_body: false
 fields:
-- type: text
-  name: title
-  label: title
+- name: title
+  label: Title
+  type: text
+  description: Enter title, needs to match filename for routing.
   config:
     required: true
-  description: Enter title, needs to match filename for routing
+- name: slug
+  label: Slug
+  type: text
+  description: Part of the URL address. Only owercase and dashes '-'. No special characters, no spaces.
+  config:
+    required: true
 - name: author
+  label: Author
   type: select
   default: []
+  description: Select author, to add a new author, go to Authors List.
   config:
     required: true
     options: []
@@ -19,25 +27,19 @@ fields:
       section: author-list
       file: content/data/authors.json
       path: authors
-  label: Author
-  description: Select author, to add a new author, go to Authors List
-- type: datetime
-  name: date
-  label: date
+- name: date
+  label: Date
+  type: datetime
   config:
     required: true
-- type: file
-  name: hero_image
-  label: hero_image
-- name: label
+- name: hero_image
+  label: Hero image
+  type: file
+- name: tags
+  label: Tags
   type: tag_list
   default: []
-  label: Label
 pages:
-- content/blog-posts/an-essay-on-walking.md
+- content/blog-posts/agile-swarming-2021.md
 - content/blog-posts/marilee-adams-myslenie-pytaniami.md
-- content/blog-posts/ne-te-quaesiveris-extra.md
 - content/blog-posts/o-zarzadzaniu-zmiana-przemianach-i-agileswarming.md
-- content/blog-posts/song-of-myself.md
-- content/blog-posts/sunflower-sutra.md
-- content/blog-posts/the-geneology-of-morals.md
