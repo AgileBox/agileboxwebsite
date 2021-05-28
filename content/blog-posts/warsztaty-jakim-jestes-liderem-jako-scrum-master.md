@@ -2,8 +2,10 @@
 author: Agile Box
 label: []
 title: Warsztaty "Jakim jesteś liderem jako Scrum Master"?
-date: 2021-05-22T22:00:00Z
+date: 2021-05-22T22:00:00.000+00:00
 hero_image: "/sciana-inspiracji.jpg"
+slug: warsztaty-jakim-jestes-liderem-jako-scrum-master
+tags: []
 
 ---
 Z końcem listopada zorganizowałyśmy  warsztaty „Jakim jesteś liderem jako Scrum Master”.
