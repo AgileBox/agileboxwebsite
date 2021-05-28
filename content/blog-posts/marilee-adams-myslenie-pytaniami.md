@@ -1,10 +1,10 @@
 ---
-author: Agile Box
+author: Luiza Lipień
 label: []
-title: 'Marilee Adams: Myślenie pytaniami'
+title: Myślenie pytaniami - książka dla każdego coacha
 slug: marilee-adams-myslenie-pytaniami
-date: 2021-05-24T22:00:00Z
-hero_image: "/myslenie-pytaniami.png"
+date: 2021-03-02T23:00:00Z
+hero_image: "/myslenie-pytaniami-2.jpg"
 
 ---
 Czy znasz książkę Marilee Adams pt. „Myślenie pytaniami”?
@@ -17,18 +17,27 @@ Zdaniem autorki „Myślenia pytaniami” możemy przyjmować dwie postawy: być
 
 Dlatego zamiast pytać:
 
-• co jest nie tak ze mną / z nimi?
-
-• czyja to wina?
+> • co jest nie tak ze mną / z nimi?
+>
+> • czyja to wina?
 
 lepiej zadawać pytania „uczącego się”:
 
-• co się stało?
-
-• czego mogę się z tego nauczyć?
-
-• jakie są fakty?
+> • co się stało?
+>
+> • czego mogę się z tego nauczyć?
+>
+> • jakie są fakty?
 
 Zadawanie pytań „uczącego się” prowadzi to do sytuacji, w których wszyscy wygrywają, nie ma już więcej winnych, skupiamy się na rozwiązaniu, dokonujemy przemyślanych wyborów i wzmacniamy swój potencjał i wachlarz potencjalnych opcji.
 
-A jakie pytania zadajesz sobie Ty, Scrum Masterze?
+![](/myslenie-pytaniami.png)
+
+_Rysunek: Mapa wyboru. Źródło: Marilee Adams, Myślenie Pytaniami, Wydawnictwo Studio EMKA, 2007_
+
+    
+    
+
+Zawsze staram się zadawać sobie pytania „uczącego się”. Choć nie zawsze się to udaje 😉...
+
+A jak jest u Ciebie?

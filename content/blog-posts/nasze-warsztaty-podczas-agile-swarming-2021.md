@@ -1,10 +1,9 @@
 ---
 author: Agile Box
-title: Agile Swarming 2021
-slug: agile-swarming-2021
-date: 2021-04-21T07:00:00Z
-hero_image: "/rzut-murala.jpg"
 label: []
+title: Nasze warsztaty podczas Agile Swarming 2021
+date: 2021-04-20T22:00:00Z
+hero_image: "/agile-swarming-glowne.png"
 
 ---
 Tydzień temu miałyśmy przyjemność pracować ze zwinnymi liderami podczas naszych warsztatów "Leading Through Change" w ramach Agile Swarming 2021!
@@ -17,4 +16,10 @@ Była to świetna okazja do:
 * Zrozumienia jak działa mózg w zmianie i jakie są tego konsekwencje,
 * Odkrywania zachowań lidera, które wspierają oraz tych, które hamują proces transformacji (tzw. DOs/DON'Ts) w poszczególnych etapach zmiany.
 
+Poniżej znajdziecie literaturę, którą rekomendowałyśmy naszym zwinnym liderom, aby zakończyć każdą transformację sukcesem:
+
+![](/agile-swarming-polecana-literatura.jpg)
+
 Jeszcze raz dziękujemy uczestnikom za wspólnie spędzony czas i wspaniały feedback oraz życzymy powodzenia w prowadzeniu swoich zespołów i całych organizacji przez proces zmiany!‍
+
+**A Motorola Solutions dziękujemy za zaproszenie!**
