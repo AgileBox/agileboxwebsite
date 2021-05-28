@@ -3,7 +3,7 @@ author: Agile Box
 label: []
 title: Nasze warsztaty podczas Agile Swarming 2021
 date: 2021-04-20T22:00:00Z
-hero_image: ''
+hero_image: "/agile-swarming-rzut-murala.png"
 
 ---
 Tydzień temu miałyśmy przyjemność pracować ze zwinnymi liderami podczas naszych warsztatów "Leading Through Change" w ramach Agile Swarming 2021!
