@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper grid grid-cols-12 place-items-center mt-16 mb-4 md:mb-16">
-        <div class="img col-span-12 md:col-span-7 mb-6 md:mb-0 pr-16">
+        <div class="img col-span-12 md:col-span-7 mb-6 md:mb-0 md:pr-16">
             <div class="relative">
                 <div class="w-3/5 ml-auto relative z-10 mb-10 shadow-2xl">
                     <img :src="image1" class="rounded-lg">

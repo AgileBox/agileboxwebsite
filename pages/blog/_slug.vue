@@ -11,7 +11,7 @@
             />
             <div class="wrapper grid grid-cols-12 place-items-center mt-4 mb-4 md:mb-16">
                 <div class="col-start-3 col-span-8">
-                    <div class="text-blue-500 text-sm py-6">
+                    <div class="text-gray-400 text-sm py-6">
                         <h3>{{ formatDate(post.attributes.date) }}</h3>
                     </div>
                     <div class="mb-10 shadow-2xl">

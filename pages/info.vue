@@ -21,7 +21,7 @@
             :image1="require('~/static/DSC_6322pp.jpg')"
             :image2="require('~/static/DSC_6254pp.jpg')"
         >
-            <p class="text-gray-500">
+            <p class="text-gray-500 mt-6 md:mt-0">
                 Gdybyśmy miały przedstawić nasze wspólne doświadczenie w liczbach, to byłoby to w sumie:
                 <ul class="list-disc p-6">
                     <li>24 lata pracy w IT, w tym 18 lat pracy nad zwinnością</li>
@@ -45,14 +45,14 @@
                     <p class="text-gray-500 mb-8">Z IT jestem związana od 15 lat. Pełniłam różne funkcje, od kierownika projektu, szefa działu Scrum Masterów, managera działu deweloperskiego, po szefa Agile Coachów. Brałam udział w wielu transformacjach i zmianach organizacyjnych (m.in. w Allegro, PayU, William Hill, GlaxoSmithKline). Dzięki tym doświadczeniom nauczyłam się w jaki sposób tworzyć i wspierać budowanie środowiska, które służy rozwojowi zespołów i jednostek, pozwala im rosnąć i odnosić sukcesy. Nauczyłam się jak być liderem w trudnych i zmiennych warunkach.<br>
                     Obecnie dzielę się swoją wiedzą z innymi - jestem coachem i trenerem zespołów, liderów i managerów w zakresie najlepszych praktyk Lean, Agile, HR oraz rozwoju osobistego.</p>
                 </div>
-                <div class="img col-span-12 sm:col-span-7 pl-16">
+                <div class="img col-span-12 sm:col-span-7 md:pl-16">
                     <img src="~/static/DSC_6137pp.jpg" class="shadow-2xl rounded-lg">
                 </div>
             </div>
         </div>
         <div class="bg-gray-50 py-10">
             <div class="wrapper grid grid-cols-12 place-items-center mt-6 mb-16">
-                <div class="img col-span-12 sm:col-span-7 pr-16 mb-6 sm:mb-0">
+                <div class="img col-span-12 sm:col-span-7 md:pr-16 mb-6 sm:mb-0">
                     <img src="~/static/DSC_6423pp2.jpg" class="shadow-2xl rounded-lg">
                 </div>
                 <div class="col-span-12 sm:col-span-5">

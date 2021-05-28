@@ -33,7 +33,7 @@
 
         <HeaderAndText
             title="Newsletter"
-            subtitle="Zapisz się do naszego newlettera"
+            subtitle="Zapisz się do naszego newslettera"
             :bg-image="require('~/static/kadr.jpg')"
             is-dark
         >
