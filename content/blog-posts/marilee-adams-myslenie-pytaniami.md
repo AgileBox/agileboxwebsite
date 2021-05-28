@@ -4,7 +4,7 @@ label: []
 title: Myślenie pytaniami - książka dla każdego coacha
 slug: marilee-adams-myslenie-pytaniami
 date: 2021-03-02T23:00:00Z
-hero_image: "/myslenie-pytaniami.jpg"
+hero_image: "/myslenie-pytaniami-2.jpg"
 
 ---
 Czy znasz książkę Marilee Adams pt. „Myślenie pytaniami”?
