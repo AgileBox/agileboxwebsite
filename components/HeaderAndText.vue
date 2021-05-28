@@ -7,23 +7,21 @@
         class="relative"
     >
         <div class="wrapper grid grid-cols-6 relative z-10 place-items-center">
-            <div class="text col-start-2 col-span-4">
-                <div class="">
-                    <h2
-                        v-if="title"
-                        class="text-center text-4xl font-bold my-6"
-                    >
-                        {{ title }}
-                    </h2>
-                    <h3
-                        v-if="subtitle"
-                        :class="isDark ? 'text-white opacity-70' : 'text-gray-500'"
-                        class="text-center text-xl font-bold my-4"
-                    >
-                        {{ subtitle }}
-                    </h3>
-                    <slot />
-                </div>
+            <div class="text col-span-6 sm:col-start-2 sm:col-span-4">
+                <h2
+                    v-if="title"
+                    class="text-center text-4xl font-bold my-6"
+                >
+                    {{ title }}
+                </h2>
+                <h3
+                    v-if="subtitle"
+                    :class="isDark ? 'text-white opacity-70' : 'text-gray-500'"
+                    class="text-center text-xl font-bold my-4"
+                >
+                    {{ subtitle }}
+                </h3>
+                <slot />
             </div>
         </div>
         <div

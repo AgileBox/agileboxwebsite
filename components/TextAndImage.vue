@@ -11,7 +11,7 @@
             </div>
         </div>
         <div class="text col-span-12 md:col-span-5">
-            <div class="pl-6">
+            <div class="md:pl-6">
                 <h2
                     v-if="heading"
                     class="text-2xl font-bold my-8"

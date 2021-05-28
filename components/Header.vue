@@ -5,8 +5,8 @@
         }"
         class="header fixed w-full text-white z-50 border-b border-white border-opacity-20 transition-all duration-300"
     >
-        <div class="wrapper h-1/5 flex flex-row justify-between items-center">
-            <NuxtLink to="/" class="logo text-2xl font-bold tracking-widest">
+        <div class="wrapper h-1/5 flex flex-col sm:flex-row justify-between items-center">
+            <NuxtLink to="/" class="logo text-xl pt-2 sm:pt-0 sm:text-2xl font-bold tracking-widest">
                 AgileBox
             </NuxtLink>
 
@@ -16,7 +16,7 @@
                         v-for="(item, index) in menuItems"
                         :key="index"
                     >
-                        <NuxtLink :to="item.to" class="[ block p-6 font-medium hover:text-blue-200 transition-all ] nav__item">
+                        <NuxtLink :to="item.to" class="[ block p-2 sm:p-6 text-sm sm:text-base font-medium hover:text-blue-200 transition-all ] nav__item">
                             {{ item.name }}
                         </NuxtLink>
                     </li>

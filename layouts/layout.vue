@@ -71,12 +71,17 @@ export default {
 
 <style lang="scss">
 .wrapper {
-    padding: 0 40px;
+    padding: 0 24px;
+
+    @media (min-width: 960px) {
+        padding: 0 40px;
+    }
 
     @media (min-width: 1340px) {
         max-width: 1280px;
         margin-left: auto;
         margin-right: auto;
     }
+
 }
 </style>
