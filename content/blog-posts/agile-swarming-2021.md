@@ -7,7 +7,7 @@ hero_image: "/agile-swarming-rzut-murala.png"
 label: []
 
 ---
-###### Tydzień temu miałyśmy przyjemność pracować ze zwinnymi liderami podczas naszych warsztatów "Leading Through Change" w ramach Agile Swarming 2021!
+> ###### Tydzień temu miałyśmy przyjemność pracować ze zwinnymi liderami podczas naszych warsztatów "Leading Through Change" w ramach Agile Swarming 2021!
 
 Była to świetna okazja do:
 
@@ -21,7 +21,7 @@ Poniżej znajdziecie literaturę, którą podczas warsztatów rekomendowałyśmy
 
 ![](/agile-swarming-polecana-literatura.jpg)
 
-###### Jeszcze raz dziękujemy uczestnikom za wspólnie spędzony czas i wspaniały feedback oraz życzymy powodzenia w prowadzeniu swoich zespołów i całych organizacji przez proces zmiany!‍
+> ###### Jeszcze raz dziękujemy uczestnikom za wspólnie spędzony czas i wspaniały feedback oraz życzymy powodzenia w prowadzeniu swoich zespołów i całych organizacji przez proces zmiany!‍
 
 ######           
 
