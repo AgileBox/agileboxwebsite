@@ -11,7 +11,7 @@
         <HeaderAndText
             class="text-center"
             title="Łączy nas nie tylko wspólna pasja, ale też wspólne doświadczenie"
-            subtitle="Poznałyśmy się 2018 roku w William Hill gdzie prowadziłyśmy wspólnie transformację Agilową w ponad 50 zespołach pracujących w różnych lokalizacjach w Krakowie, Leeds, Londynie i na Gibraltarze."
+            subtitle="Poznałyśmy się w 2018 roku w William Hill gdzie prowadziłyśmy wspólnie transformację Agilową w ponad 50 zespołach pracujących w różnych lokalizacjach: w Krakowie, Leeds, Londynie i na Gibraltarze."
         >
             <p class="text-gray-500">
                 Szybko okazało się, że mamy wiele wspólnego, a szczególnie pasję do dzielenia się wiedzą i wspierania Scrum Masterów, Product Ownerów i managerów w ich codziennej pracy.
@@ -58,7 +58,7 @@
                 <div class="col-span-12 sm:col-span-5">
                     <!-- <h2 class="text-xl font-bold text-gray-700 pb-2">Więcej o</h2> -->
                     <h1 class="text-4xl font-extrabold text-blue-500 mb-8">Dorota Sternalska</h1>
-                    <p class="text-gray-500 mb-8">Swoją przygodę z IT rozpoczęłam 10 lat temu od testowania radiotelefonów dla służb publicznych. Byłam liderem zespołu testowego odpowiedzialnego za strategię testową i koordynowanie testów dla 10 zespołów pracujących nad jednym produktem.<br>
+                    <p class="text-gray-500 mb-8">Swoją przygodę z IT rozpoczęłam ponad 10 lat temu od testowania radiotelefonów dla służb publicznych. Byłam liderem zespołu testowego odpowiedzialnego za strategię testową i koordynowanie testów dla 10 zespołów pracujących nad jednym produktem.<br>
                     Od tamtej pory rozwijam swoje liderskie kompetencje promując zwinne podejście w organizacjach, pracując z zespołami i managerami nad dostarczaniem wartościowych produktów w bardziej efektywny sposób.
 </p>
                 </div>

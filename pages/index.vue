@@ -7,7 +7,7 @@
             :image2="require('~/static/negative-space-macbook.jpg')"
             heading="Kilka słów o nas"
         >
-            <p class="text-gray-500 mb-8">Poznałyśmy się 2018 roku w William Hill gdzie prowadziłyśmy wspólnie transformację Agilową w ponad 50 zespołach pracujących w różnych lokalizacjach w Krakowie, Leeds, Londynie i na Gibraltarze. Szybko okazało się, że mamy wiele wspólnego, a szczególnie pasję do dzielenia się wiedzą i wspierania Scrum Masterów, Product Ownerów i managerów w ich codziennej pracy.</p>
+            <p class="text-gray-500 mb-8">Poznałyśmy się w 2018 roku w William Hill gdzie prowadziłyśmy wspólnie transformację Agilową w ponad 50 zespołach pracujących w różnych lokalizacjach: w Krakowie, Leeds, Londynie i na Gibraltarze. Szybko okazało się, że mamy wiele wspólnego, a szczególnie pasję do dzielenia się wiedzą i wspierania Scrum Masterów, Product Ownerów i managerów w ich codziennej pracy.</p>
             <Btn href="/info" />
         </TextAndImage>
 
