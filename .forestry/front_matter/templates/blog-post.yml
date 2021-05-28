@@ -11,7 +11,8 @@ fields:
 - name: slug
   label: Slug
   type: text
-  description: Part of the URL address. Only owercase and dashes '-'. No special characters, no spaces.
+  description: Part of the URL address. Only owercase and dashes '-'. No special characters,
+    no spaces.
   config:
     required: true
 - name: author
