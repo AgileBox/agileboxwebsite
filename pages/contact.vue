@@ -8,17 +8,12 @@
                 {name: 'Kontakt'}
             ]"
         />
-        <HeaderAndText
-            title="Kontakt"
-        />
-        <Quotes />
-        <ContactSection />
+        <ContactSection class="mt-6" />
     </section>
 </template>
 
 <script>
 import BannerSubpage from '~/components/BannerSubpage.vue'
-import HeaderAndText from '~/components/HeaderAndText.vue'
 import ContactSection from '~/components/ContactSection.vue'
 
 export default {
@@ -26,7 +21,6 @@ export default {
 
     components: {
         BannerSubpage,
-        HeaderAndText,
         ContactSection
     },
 }

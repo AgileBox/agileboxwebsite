@@ -6,7 +6,7 @@
         >
             {{ title }}
         </h2>
-        <ul class="grid grid-cols-12 gap-8">
+        <ul class="grid grid-cols-12 md:gap-8">
             <li
                 v-for="post in sortedPosts"
                 :key="post.attributes.title"

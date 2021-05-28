@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper mb-16">
-        <ul class="grid grid-cols-12 gap-8">
+        <ul class="grid grid-cols-12 md:gap-8">
             <li
                 v-for="(item, index) in quotesContent"
                 :key="index"
