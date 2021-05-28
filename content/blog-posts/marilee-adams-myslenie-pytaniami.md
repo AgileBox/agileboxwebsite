@@ -33,6 +33,8 @@ Zadawanie pytań „uczącego się” prowadzi to do sytuacji, w których wszysc
 
 ![](/myslenie-pytaniami.png)
 
+_Rysunek: Mapa wyboru. Źródło: Marilee Adams, Myślenie Pytaniami, Wydawnictwo Studio EMKA, 2007_
+
 Zawsze staram się zadawać sobie pytania „uczącego się”. Choć nie zawsze się to udaje 😉...
 
 A jak jest u Ciebie?
