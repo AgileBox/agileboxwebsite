@@ -33,6 +33,6 @@ Zadawanie pytań „uczącego się” prowadzi to do sytuacji, w których wszysc
 
 ![](/myslenie-pytaniami.png)
 
-Zawsze staram się zadawać sobie pytania „uczącego się”. Choć nie zawsze się to udaje 😉...  
-  
+Zawsze staram się zadawać sobie pytania „uczącego się”. Choć nie zawsze się to udaje 😉...
+
 A jak jest u Ciebie?
