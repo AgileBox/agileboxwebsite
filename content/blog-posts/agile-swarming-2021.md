@@ -2,8 +2,8 @@
 author: Agile Box
 title: Nasze warsztaty podczas Agile Swarming 2021
 slug: agile-swarming-2021
-date: 2021-04-14T07:00:00Z
-hero_image: ''
+date: 2021-04-20T22:00:00Z
+hero_image: "/agile-swarming-rzut-murala.png"
 label: []
 
 ---
@@ -23,6 +23,8 @@ Poniżej znajdziecie literaturę, którą podczas warsztatów rekomendowałyśmy
 
 ###### Jeszcze raz dziękujemy uczestnikom za wspólnie spędzony czas i wspaniały feedback oraz życzymy powodzenia w prowadzeniu swoich zespołów i całych organizacji przez proces zmiany!‍
 
-###### **A Motorola Solutions dziękujemy za zaproszenie!**
+######           
+
+######          **A Motorola Solutions dziękujemy za zaproszenie!**
 
 ![Luiza Lipień Dorota Sternalska na Agile Swarming 2021](/dsc_6449pp_male_agileswarming.jpg "Agile Box na Agile Swarming 2021")
