@@ -2,7 +2,7 @@
 author: Agile Box
 title: Nasze warsztaty podczas Agile Swarming 2021
 slug: agile-swarming-2021
-date: 2021-04-20T22:00:00Z
+date: 2021-04-21T20:00:00Z
 hero_image: "/agile-swarming-rzut-murala.png"
 label: []
 
