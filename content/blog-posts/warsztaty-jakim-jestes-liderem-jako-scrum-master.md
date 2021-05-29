@@ -3,7 +3,7 @@ author: Agile Box
 label: []
 title: Warsztaty "Jakim jesteś liderem jako Scrum Master"?
 date: 2021-05-22T22:00:00.000+00:00
-hero_image: "/screenshot-2021-05-29-at-10-19-11.png"
+hero_image: "/screenshot-2021-05-29-at-10-40-19.png"
 slug: warsztaty-jakim-jestes-liderem-jako-scrum-master
 tags: []
 
