@@ -12,7 +12,7 @@
         >
         <div class="wrapper h-full relative z-10 flex justify-center items-center">
             <div class="text-center pt-20">
-                <h1 class="text-4xl font-bold mb-2">
+                <h1 class="text-2xl sm:text-4xl font-bold mb-2">
                     {{ title }}
                 </h1>
                 <Breadcrumbs
@@ -44,7 +44,7 @@ export default {
 <style lang="scss">
 .banner-subpage {
     height: 30vh;
-    min-height: 200px;
+    min-height: 250px;
 
     &--has-img {
         height: 50vh;

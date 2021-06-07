@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
         <div class="grid grid-cols-12 md:gap-8 mb-16">
-            <Card class="col-span-12 md:col-span-4">
+            <Card class="col-span-12 md:col-span-4 mt-6">
                 <div class="flex items-center xl:items-start text-center xl:text-left flex-col xl:flex-row">
                     <Icon glyph="users" class="text-5xl text-blue-500 xl:mr-8 mb-4 xl:mb-0" />
                     <div>
@@ -10,7 +10,7 @@
                     </div>
                 </div>
             </Card>
-            <Card class="col-span-12 md:col-span-4">
+            <Card class="col-span-12 md:col-span-4 mt-6">
                 <div class="flex items-center xl:items-start text-center xl:text-left flex-col xl:flex-row">
                     <Icon glyph="envelope" class="text-5xl text-blue-500 xl:mr-8 mb-4 xl:mb-0" />
                     <div>
@@ -19,7 +19,7 @@
                     </div>
                 </div>
             </Card>
-            <Card class="col-span-12 md:col-span-4">
+            <Card class="col-span-12 md:col-span-4 mt-6">
                 <div class="flex items-center xl:items-start text-center xl:text-left flex-col xl:flex-row">
                     <Icon glyph="license" class="text-5xl text-blue-500 xl:mr-8 mb-4 xl:mb-0" />
                     <div>

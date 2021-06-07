@@ -1,12 +1,12 @@
 <template>
-    <section class="layout">
+    <section class="layout relative min-h-screen">
         <Header :is-scrolled="isScrolled" />
 
-        <div class="content">
+        <div class="content pb-10">
             <nuxt />
         </div>
 
-        <footer class="bg-gray-800 text-white text-xs sm:text-base py-10">
+        <footer class="absolute bottom-0 w-full h-10 bg-gray-800 text-white text-xs sm:text-base py-10">
             <div class="wrapper flex justify-between items-center opacity-60 text-xs">
                 <div>
                     &copy; AgileBox
