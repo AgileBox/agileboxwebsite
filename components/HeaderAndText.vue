@@ -17,7 +17,7 @@
                 <h3
                     v-if="subtitle"
                     :class="isDark ? 'text-white opacity-70' : 'text-gray-500'"
-                    class="text-center text-xl font-bold my-4"
+                    class="text-center text-xl font-bold my-1 md:my-4"
                 >
                     {{ subtitle }}
                 </h3>

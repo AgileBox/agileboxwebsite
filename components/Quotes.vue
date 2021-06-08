@@ -6,7 +6,7 @@
                 :key="index"
                 class="col-span-12 md:col-span-4"
             >
-                <Card class="text-center">
+                <Card class="text-center mb-6">
                     <div class="font-serif text-9xl text-blue-500 -mb-14">
                         &rdquo;
                     </div>
