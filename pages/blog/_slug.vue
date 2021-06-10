@@ -20,11 +20,15 @@
 
                     <div v-html="post.html" class="article"></div>
 
-                    <!-- <div v-if="nextBlogPath">
-                        <NuxtLink :to="`/blog/${nextBlogPath}`">
-                            Next &gt;
-                        </NuxtLink>
-                    </div> -->
+                    <div
+                        v-if="nextBlogPath"
+                        class="flex flex-row-reverse mt-10 mr-6"
+                    >
+                        <Btn :href="`/blog/${nextBlogPath}`" class="items-center">
+                            Następny <Icon glyph="arrow-right" class="text-base lg:text-xl text-white pl-2 " />
+                        </Btn>
+                    </div>
+
                 </div>
             </div>
         </template>
@@ -38,20 +42,18 @@
 
 <script>
 import BannerSubpage from '~/components/BannerSubpage.vue'
+import Btn from '~/components/Btn.vue'
+import Icon from '~/components/Icon.vue'
 
 export default {
     layout: 'layout',
 
     components: {
-        BannerSubpage
+        BannerSubpage,
+        Btn,
+        Icon
     },
-
     computed: {
-        formattedDate() {
-            return (this.post)
-                ? new Date(this.post.attributes.date).toDateString().slice(4)
-                : ''
-        },
         nextBlogPath() {
             const firstBlogPath = this.sortedPaths[0]
             // if there's no 'next' path, return the first path
