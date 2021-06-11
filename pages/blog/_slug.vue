@@ -91,12 +91,10 @@ export default {
             const sortedPaths = []
             sortedPosts.map(post => {
                 // clean up the path - split by /
-                let relPath = post.attributes._meta.resourcePath.split('/')
-                // get the end of the path, remove '.md'
-                relPath = relPath[relPath.length - 1].slice(0, -3)
-                sortedPaths.push(relPath)
+                sortedPaths.push(post.slug)
             })
             return {
+                posts,
                 post,
                 sortedPaths,
                 currentPath
