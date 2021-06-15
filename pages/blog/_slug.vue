@@ -20,15 +20,26 @@
 
                     <div v-html="post.html" class="article"></div>
 
-                    <div
-                        v-if="nextBlogPath"
-                        class="flex flex-row-reverse mt-10 mr-6"
-                    >
-                        <Btn :href="`/blog/${nextBlogPath}`" class="items-center">
-                            Następny <Icon glyph="arrow-right" class="text-base lg:text-xl text-white pl-2 " />
-                        </Btn>
-                    </div>
+                    <hr class="mt-10">
 
+                    <div class="flex flex-row mt-10">
+                        <div
+                            v-if="prevBlogPath"
+                            class=""
+                        >
+                            <Btn :href="`/blog/${prevBlogPath}`" class="items-center">
+                                <Icon glyph="arrow-left" class="text-base lg:text-xl text-white pr-2 " /> Poprzedni
+                            </Btn>
+                        </div>
+                        <div
+                            v-if="nextBlogPath"
+                            class="ml-auto"
+                        >
+                            <Btn :href="`/blog/${nextBlogPath}`" class="items-center">
+                                Następny <Icon glyph="arrow-right" class="text-base lg:text-xl text-white pl-2 " />
+                            </Btn>
+                        </div>
+                    </div>
                 </div>
             </div>
         </template>
@@ -46,6 +57,8 @@ import Btn from '~/components/Btn.vue'
 import Icon from '~/components/Icon.vue'
 
 export default {
+    name: 'BlogPost',
+
     layout: 'layout',
 
     components: {
@@ -54,14 +67,24 @@ export default {
         Icon
     },
     computed: {
-        nextBlogPath() {
-            const firstBlogPath = this.sortedPaths[0]
-            // if there's no 'next' path, return the first path
-            const nextPath = isNull(this.sortedPaths[this.sortedPaths.indexOf(this.currentPath) + 1]) ? firstBlogPath : this.sortedPaths[this.sortedPaths.indexOf(this.currentPath) + 1]
-            function isNull(item) {
-                return item === null || item === undefined
+        prevBlogPath() {
+            const nextBlogPath = this.sortedPaths[this.sortedPaths.indexOf(this.currentPath) - 1]
+
+            if (nextBlogPath) {
+                return nextBlogPath
             }
-            return nextPath
+
+            return null
+        },
+
+        nextBlogPath() {
+            const nextBlogPath = this.sortedPaths[this.sortedPaths.indexOf(this.currentPath) + 1]
+
+            if (nextBlogPath) {
+                return nextBlogPath
+            }
+
+            return null
         }
     },
 
@@ -74,10 +97,12 @@ export default {
             // get current post data
             // get all post data for next route
             const allPosts = await require.context("~/content/blog-posts/", true, /\.md$/)
+
             const posts = allPosts.keys().map((key) => {
                 return allPosts(key)
             });
-            const sortedPosts = posts.sort((a,b) => {
+
+            const sortedPosts = posts.sort((a, b) => {
                 const dateA = new Date(a.attributes.date);
                 const dateB = new Date(b.attributes.date);
                 if (dateA < dateB) {
@@ -88,13 +113,12 @@ export default {
                 }
                 return 0;
             })
-            const sortedPaths = []
-            sortedPosts.map(post => {
-                // clean up the path - split by /
-                sortedPaths.push(post.slug)
-            })
+
+            const sortedPaths = sortedPosts.map(({ attributes }) => attributes.slug)
+
             return {
                 posts,
+                sortedPosts,
                 post,
                 sortedPaths,
                 currentPath
