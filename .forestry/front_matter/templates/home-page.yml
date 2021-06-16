@@ -1,4 +1,9 @@
 ---
 label: Home page
 hide_body: true
-fields: []
+fields:
+- name: banner_slogan
+  type: text
+  config:
+    required: false
+  label: Banner slogan
