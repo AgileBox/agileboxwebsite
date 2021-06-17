@@ -1,59 +1,30 @@
 <template>
     <div class="wrapper mb-16">
-        <rl-carousel
-            v-model="slide"
-            @swipe-recognized="clearInterval"
-        >
-            <div slot-scope="{ wrapperStyles, slides: { count, active } }">
-                <div class="overflow-hidden text-center">
-                    <div v-bind="wrapperStyles">
-                        <rl-carousel-slide class="grid grid-cols-12 md:gap-8">
-                            <div
-                                v-for="(item, index) in quotesContent"
-                                :key="index"
-                                class="col-span-12 md:col-span-4"
-                            >
-                                <Card class="text-center mb-6">
-                                    <div class="font-serif text-9xl text-blue-500 -mb-14">
-                                        &rdquo;
-                                    </div>
-                                    <p class=" text-gray-500 mb-4">
-                                        {{ item.text }}
-                                    </p>
-                                    <p class="text-blue-500 uppercase mb-1">
-                                        {{ item.name }}
-                                    </p>
-                                    <p class="text-gray-500 text-sm">
-                                        {{ item.function }}
-                                    </p>
-                                </Card>
-                            </div>
-                        </rl-carousel-slide>
+        <swiper class="swiper" :options="swiperOption">
+            <swiper-slide
+                v-for="(item, index) in quotesContent"
+                :key="index"
+            >
+                <Card class="text-center mb-6">
+                    <div class="font-serif text-9xl text-blue-500 -mb-14">
+                        &rdquo;
                     </div>
-                </div>
-                <div class="mt-4 text-center">
-                    <span
-                        v-for="(item, index) in count"
-                        :key="index"
-                        class="mx-1 cursor-pointer"
-                        @click="slide = index"
-                    >
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="30"
-                            height="20"
-                            class="stroke-current"
-                            :class="{
-                                'text-grey': active !== index,
-                                'text-grey-dark': active === index
-                            }"
-                        >
-                            <line x1="0" y1="10" x2="30" y2="10" stroke-width="2" />
-                        </svg>
-                    </span>
-                </div>
-            </div>
-        </rl-carousel>
+                    <p class=" text-gray-500 mb-4">
+                        {{ item.text }}
+                    </p>
+                    <p class="text-blue-500 uppercase mb-1">
+                        {{ item.name }}
+                    </p>
+                    <p class="text-gray-500 text-sm">
+                        {{ item.function }}
+                    </p>
+                </Card>
+            </swiper-slide>
+            <template #pagination>
+                <div class="swiper-pagination"></div>
+            </template>
+        </swiper>
+
 
 
 
@@ -86,18 +57,29 @@
 </template>
 
 <script>
-import { RlCarousel, RlCarouselSlide } from 'vue-renderless-carousel'
+import { Swiper, SwiperSlide, directive } from 'vue-awesome-swiper'
 import Card from '~/components/Card.vue'
+import 'swiper/swiper-bundle.css'
 
 export default {
     components: {
         Card,
-        RlCarousel,
-        RlCarouselSlide
+        Swiper,
+        SwiperSlide
+    },
+    directives: {
+        swiper: directive
     },
 
     data: () => ({
-        slide: 0,
+        swiperOption: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            }
+        },
         quotesContent: [
             {
                 text: "Luiza has been a terrific coach and mentor for my team. She lives the agile principles and is completely outcome focused. What impresses me about Luiza is that she works from the bottom up and focuses on all aspects of coaching.",
@@ -112,6 +94,21 @@ export default {
             {
                 text: "Warsztat skłonił mnie do myślenia. Już wyciagnęłam pewne wnioski, mam pomysł co chce przemyśleć, nad czym pracować. Ogromne wow - dawno nie byłam na tak ciekawym i skłaniającym do myślenia warsztacie. Dziekuję dziewczyny!",
                 name: "Uczestniczka warsztatów"
+            },
+            {
+                text: "Dorota has a lot of influence on the way of working on the entire project. What is unique, she knows and thinks how to apply some good practices in the reality/context of a particular business.",
+                name: "Wojtek",
+                function: "Engineering Manager"
+            },
+            {
+                text: "I'd like to thank Luiza for helping me keep in mind that people are the biggest asset of the company and that success is dependent on how we involve people on that mission.",
+                name: "Andrzej",
+                function: "Director of Engineering"
+            },
+            {
+                text: "Dorota is always actively looking for areas of improvement and has a ready toolkit with suitable techniques to hand. She built strong business relationships with the team members and is able to get them to adopt new approaches. I saw a measurable difference in the teams she coached.",
+                name: "Sharon",
+                function: "Programme Manager"
             },
         ]
     })
