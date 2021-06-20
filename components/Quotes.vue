@@ -1,9 +1,10 @@
 <template>
     <div class="wrapper mb-16">
-        <swiper class="swiper" :options="swiperOption">
+        <swiper class="swiper" :options="swiperOption" ref="swiper">
             <swiper-slide
                 v-for="(item, index) in quotesContent"
                 :key="index"
+                class="mb-6"
             >
                 <Card class="text-center mb-6">
                     <div class="font-serif text-9xl text-blue-500 -mb-14">
@@ -20,46 +21,16 @@
                     </p>
                 </Card>
             </swiper-slide>
-            <template #pagination>
-                <div class="swiper-pagination"></div>
-            </template>
+
+            <div slot="pagination" class="swiper-pagination"></div>
         </swiper>
-
-
-
-
-
-
-
-        <!-- <ul class="grid grid-cols-12 md:gap-8">
-            <li
-                v-for="(item, index) in quotesContent"
-                :key="index"
-                class="col-span-12 md:col-span-4"
-            >
-                <Card class="text-center mb-6">
-                    <div class="font-serif text-9xl text-blue-500 -mb-14">
-                        &rdquo;
-                    </div>
-                    <p class=" text-gray-500 mb-4">
-                        {{ item.text }}
-                    </p>
-                    <p class="text-blue-500 uppercase mb-1">
-                        {{ item.name }}
-                    </p>
-                    <p class="text-gray-500 text-sm">
-                        {{ item.function }}
-                    </p>
-                </Card>
-            </li>
-        </ul> -->
     </div>
 </template>
 
 <script>
 import { Swiper, SwiperSlide, directive } from 'vue-awesome-swiper'
 import Card from '~/components/Card.vue'
-import 'swiper/swiper-bundle.css'
+import 'swiper/css/swiper.css'
 
 export default {
     components: {
@@ -74,6 +45,7 @@ export default {
     data: () => ({
         swiperOption: {
             slidesPerView: 3,
+            slidesPerGroup: 3,
             spaceBetween: 30,
             pagination: {
                 el: '.swiper-pagination',
@@ -111,6 +83,10 @@ export default {
                 function: "Programme Manager"
             },
         ]
-    })
+    }),
+
+    mounted () {
+        console.log(this.$refs.swiper);
+    }
 }
 </script>
