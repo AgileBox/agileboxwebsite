@@ -82,6 +82,47 @@ export default {
                 name: "Sharon",
                 function: "Programme Manager"
             },
+            {
+                text: "Luiza is an excellent manager who excels in mentoring and guiding teams and developers to better process and higher productivity.",
+                name: "Michael",
+                function: "CTO"
+            },
+            {
+                text: "At the beginning of my career as a Scrum Master I came across a great superior. Luiza not only supported me in my personal development and helping find the right path, but above all Luiza is a great associate.",
+                name: "Bartek",
+                function: "Agile Coach"
+            },
+            {
+                text: "Luiza is one of the most passionate and engaged people I ever met. She is a \"doer\" kind of person so working with her you will see the results of her work, not only hear about them",
+                name: "Sylwia",
+                function: "Scrum Master"
+            },
+            {
+                text: "Luiza has been a great coach to our leadership team, supporting us as the team grew in maturity, challenging us when needed, always advocating for tangible results both for people and business.",
+                name: "Daria",
+                function: "HR Manager"
+            },
+            {
+                text: "My organization had received tremendous guidance and support from Luiza during agile transformation and we wouldn’t be in a place where we are without her.",
+                name: "Jakub",
+                function: "Head of Engineering"
+            },
+            {
+                text: "Świetnie przygotowany warsztat. Przemyślany. Angażująca forma i treść. Ćwiczenia super przygotowane i przeprowadzone.",
+                name: "Uczestnik warsztatów",
+            },
+            {
+                text: "Dzięki za super warsztat! Konkretnie, na przykładach, ciekawe ćwiczenia praktyczne i dynamika zajęć.",
+                name: "Uczestniczka warsztatów",
+            },
+            {
+                text: "Świetny warsztat, dużo się nauczyłem i dzięki za materiały/źródła! :D Tak trzymać! Mam nadzieję, że spotkamy się jeszcze gdzieś, kiedyś.",
+                name: "Uczestnik warsztatów",
+            },
+            {
+                text: "Dzięki! Za porządnie przygotowany warsztat i przede wszystkim - możliwość posłuchania praktykujących Scrum Masterów. Jestem zainspirowana i zaintrygowana różnicami - te \"Czerwone kropeczki\" postrzegane w sposób skrajny, gdy jeden scrum master rozpozna je jako must a inny jako \"won't\".",
+                name: "Uczestniczka warsztatów",
+            },
         ]
     }),
 
