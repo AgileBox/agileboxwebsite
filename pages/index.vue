@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Banner />
+        <Banner :slogan="content.banner_slogan" />
 
         <TextAndImage
             :image1="require('~/static/DSC_6102pp.jpg')"
@@ -59,6 +59,8 @@ import Newsletter from '~/components/Newsletter.vue'
 import ContactSection from '~/components/ContactSection.vue'
 
 export default {
+    name: 'Home',
+
     layout: 'layout',
 
     components: {
@@ -73,13 +75,13 @@ export default {
     },
 
     async asyncData() {
-        // create context via webpack to map over all blog posts
-        const allPosts = await require.context("~/content/blog-posts/", true, /\.md$/)
-        const posts = allPosts.keys().map((key) => {
-            // give back the value of each post context
-            return allPosts(key)
-        });
+        const content = await import('~/content/data/home.json')
+
+        const allPosts = await require.context('~/content/blog-posts/', true, /\.md$/)
+        const posts = allPosts.keys().map((key) => allPosts(key))
+
         return {
+            content,
             posts
         }
     }

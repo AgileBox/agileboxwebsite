@@ -130,10 +130,6 @@ export default {
                 name: "Uczestnik warsztatów",
             },
         ]
-    }),
-
-    mounted () {
-        console.log(this.$refs.swiper);
-    }
+    })
 }
 </script>
