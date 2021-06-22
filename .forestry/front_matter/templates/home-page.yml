@@ -7,3 +7,5 @@ fields:
   config:
     required: false
   label: Banner slogan
+pages:
+- content/data/home.json
