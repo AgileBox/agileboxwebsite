@@ -7,6 +7,11 @@ fields:
   config:
     required: false
   label: Banner slogan
+- name: about_us_heading
+  type: text
+  config:
+    required: false
+  label: About us heading
 - name: quotes
   type: field_group_list
   fields:
@@ -34,10 +39,5 @@ fields:
     max: 
     labelField: ''
   label: Quotes
-- name: about_us_heading
-  type: text
-  config:
-    required: false
-  label: About us heading
 pages:
 - content/data/home.json
