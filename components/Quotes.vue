@@ -42,7 +42,7 @@ export default {
         swiper: directive
     },
     props: {
-        quotes: String
+        quotes: Array
     },
 
     data: () => ({
