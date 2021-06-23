@@ -28,7 +28,9 @@
                 title="Rekomendacje"
                 subtitle="Przeczytaj co o współpracy z nami mówią inni:"
             />
-            <Quotes />
+            <Quotes
+                :quotes="content.quotes"
+            />
         </div>
 
         <HeaderAndText
