@@ -30,7 +30,9 @@ fields:
       required: false
     label: Company / Function
   config:
-    min: 
-    max: 
+    min:
+    max:
     labelField: ''
   label: Quotes
+pages:
+- content/data/home.json
