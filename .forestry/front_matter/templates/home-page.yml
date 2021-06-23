@@ -34,5 +34,10 @@ fields:
     max: 
     labelField: ''
   label: Quotes
+- name: about_us_heading
+  type: text
+  config:
+    required: false
+  label: About us heading
 pages:
 - content/data/home.json
