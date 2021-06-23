@@ -1,3 +1,10 @@
 {
-  "banner_slogan": "Przestrzeń zwinnych&nbsp;liderów"
+  "banner_slogan": "Przestrzeń zwinnych&nbsp;liderów",
+  "quotes": [
+    {
+      "name": "Suavek",
+      "function": "CTO",
+      "text": "Luiza has been a terrific coach and mentor for my team. She lives the agile principles and is completely outcome focused. What impresses me about Luiza is that she works from the bottom up and focuses on all aspects of coaching."
+    }
+  ]
 }
