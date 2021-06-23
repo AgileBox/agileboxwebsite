@@ -2,9 +2,9 @@
   "banner_slogan": "Przestrzeń zwinnych&nbsp;liderów",
   "quotes": [
     {
-      "text": "Warsztat skłonił mnie do myślenia. Już wyciągnęłam pewne wnioski, mam pomysł co chce przemyśleć, nad czym pracować. Ogromne wow - dawno nie byłam na tak ciekawym i skłaniającym do myślenia warsztacie. Dziękuję dziewczyny!",
-      "name": "Uczestniczka warsztatów",
-      "function": ""
+      "name": "Suavek",
+      "function": "CTO",
+      "text": "Luiza has been a terrific coach and mentor for my team. She lives the agile principles and is completely outcome focused. What impresses me about Luiza is that she works from the bottom up and focuses on all aspects of coaching."
     },
     {
       "text": "Dorota is an expert in agile methodologies and software testing with both huge knowledge and experience with working in various environments, different teams and nationalities. As a result of this combination and great mentoring skills, teams led by Dorota are growing, learning and performing.",
@@ -12,9 +12,9 @@
       "function": "Senior Software Engineer"
     },
     {
-      "name": "Suavek",
-      "function": "CTO",
-      "text": "Luiza has been a terrific coach and mentor for my team. She lives the agile principles and is completely outcome focused. What impresses me about Luiza is that she works from the bottom up and focuses on all aspects of coaching."
+      "text": "Warsztat skłonił mnie do myślenia. Już wyciągnęłam pewne wnioski, mam pomysł co chce przemyśleć, nad czym pracować. Ogromne wow - dawno nie byłam na tak ciekawym i skłaniającym do myślenia warsztacie. Dziękuję dziewczyny!",
+      "name": "Uczestniczka warsztatów",
+      "function": ""
     },
     {
       "text": "Dorota has a lot of influence on the way of working on the entire project. What is unique, she knows and thinks how to apply some good practices in the reality/context of a particular business.",
