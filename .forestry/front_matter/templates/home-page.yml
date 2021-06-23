@@ -7,6 +7,20 @@ fields:
   config:
     required: false
   label: Banner slogan
+- name: about_us_heading
+  type: text
+  config:
+    required: false
+  label: About us heading
+- name: about_us_short_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: About us short text
 - name: quotes
   type: field_group_list
   fields:
