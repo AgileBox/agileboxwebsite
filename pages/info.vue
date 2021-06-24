@@ -11,27 +11,36 @@
         <HeaderAndText
             class="text-center"
             title="Łączy nas nie tylko wspólna pasja, ale też wspólne doświadczenie"
-            subtitle="Poznałyśmy się w 2018 roku w William Hill gdzie prowadziłyśmy wspólnie transformację Agilową w ponad 50 zespołach pracujących w różnych lokalizacjach: w Krakowie, Leeds, Londynie i na Gibraltarze."
         >
-            <p class="text-gray-500">
-                Szybko okazało się, że mamy wiele wspólnego, a szczególnie pasję do dzielenia się wiedzą i wspierania Scrum Masterów, Product Ownerów i managerów w ich codziennej pracy.
-            </p>
         </HeaderAndText>
         <TextAndImage
             :image1="require('~/static/DSC_6322pp.jpg')"
             :image2="require('~/static/DSC_6254pp.jpg')"
         >
-            <p class="text-gray-500 mt-6 md:mt-0">
-                Gdybyśmy miały przedstawić nasze wspólne doświadczenie w liczbach, to byłoby to w sumie:
-                <ul class="list-disc p-6">
-                    <li>24 lata pracy w IT, w tym 18 lat pracy nad zwinnością</li>
-                    <li>21 zespołów, w których pracowałyśmy w roli Scrum Mastera i 60, które wspierałyśmy jako Coach</li>
-                    <li>29 Product Ownerów, 83 Scrum Masterów i 49 managerów, z którymi współpracowałyśmy indywidualnie</li>
-                    <li>prawie 1000 osób przeszkolonych w zakresie Lean/Agile oraz kompetencji liderskich</li>
-                    <li>20 różnych wystąpień i inicjatyw wspierających zwinność: AgileByExample, Agile Warsaw, Scrum Experience Day, Agile &rdquo; Automation Days, Quality Excites, Agile Swarming, Tydzień Facylitacji, ALE Kraków, LeadIT Lady.</li>
-                </ul>
+            <h3 class="text-gray-500 text-xl font-bold my-1 md:my-4">
+                Poznałyśmy się w 2018 roku w William Hill gdzie prowadziłyśmy wspólnie transformację Agilową w ponad 50 zespołach pracujących w różnych lokalizacjach: w Krakowie, Leeds, Londynie i na Gibraltarze.
+            </h3>
+            <p class="text-gray-500">
+                Szybko okazało się, że mamy wiele wspólnego, a szczególnie pasję do dzielenia się wiedzą i wspierania Scrum Masterów, Product Ownerów i managerów w ich codziennej pracy.
             </p>
         </TextAndImage>
+        <HeaderAndText
+            class="text-center"
+            subtitle="Gdybyśmy miały przedstawić nasze wspólne doświadczenie w liczbach, to byłoby to w sumie:"
+            is-wide
+        >
+            <div class="grid grid-cols-12">
+                <p class="text-gray-500 mt-6 md:mt-0">
+                    <ul class="list-disc p-6">
+                        <li>24 lata pracy w IT, w tym 18 lat pracy nad zwinnością</li>
+                        <li>21 zespołów, w których pracowałyśmy w roli Scrum Mastera i 60, które wspierałyśmy jako Coach</li>
+                        <li>29 Product Ownerów, 83 Scrum Masterów i 49 managerów, z którymi współpracowałyśmy indywidualnie</li>
+                        <li>prawie 1000 osób przeszkolonych w zakresie Lean/Agile oraz kompetencji liderskich</li>
+                        <li>20 różnych wystąpień i inicjatyw wspierających zwinność: AgileByExample, Agile Warsaw, Scrum Experience Day, Agile &rdquo; Automation Days, Quality Excites, Agile Swarming, Tydzień Facylitacji, ALE Kraków, LeadIT Lady.</li>
+                    </ul>
+                </p>
+            <div>
+        </HeaderAndText>
         <HeaderAndText
             class="text-center"
             subtitle="Ale przede wszystkim, połączyło nas wspólne pragnienie - dzielić się z innymi naszą wiedzą i doświadczeniem, pomagać organizacjom i osobom prywatnym w rozwoju. W efekcie stworzyłyśmy “Agile Box” - przestrzeń dla zwinnych liderów."

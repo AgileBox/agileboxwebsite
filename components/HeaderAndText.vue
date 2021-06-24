@@ -21,6 +21,10 @@
                 >
                     {{ subtitle }}
                 </h3>
+            </div>
+            <div
+                :class="isWide ? 'col-span-6' : 'sm:col-start-2 sm:col-span-4'"
+            >
                 <slot />
             </div>
         </div>
@@ -38,7 +42,8 @@ export default {
         title: String,
         subtitle: String,
         isDark: Boolean,
-        bgImage: String
+        bgImage: String,
+        isWide: Boolean
     },
 }
 </script>
