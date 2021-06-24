@@ -1,6 +1,11 @@
 ---
 label: Info Page
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
 pages:
 - content/data/info.json
