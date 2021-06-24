@@ -1,4 +1,6 @@
 {
+  "background_color": "#B1BCBC",
+  "text_color": "#ebebeb",
   "title": "Łączy nas nie tylko wspólna pasja, ale też wspólne doświadczenie",
   "numbers": [
     {
@@ -28,8 +30,8 @@
     },
     {
       "number": "49",
-      "description": "managerów, z którymi współpracowałyśmy indywidualnie",
-      "more": ""
+      "description": "managerów",
+      "more": "z którymi współpracowałyśmy indywidualnie"
     },
     {
       "number": "1000+ ",
