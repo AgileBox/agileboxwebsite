@@ -11,6 +11,11 @@
   "title": "Łączy nas nie tylko wspólna pasja, ale też wspólne doświadczenie",
   "numbers": [
     {
+      "number": "24",
+      "description": "lata pracy w IT",
+      "more": "w tym 18 lat pracy nad zwinnością w różnych organizacjach"
+    },
+    {
       "number": "21",
       "description": "zespołów",
       "more": "w których pracowałyśmy w roli Scrum Mastera"
