@@ -8,5 +8,12 @@
   },
   "background_color": "#B1BCBC",
   "text_color": "#ebebeb",
-  "title": "Łączy nas nie tylko wspólna pasja, ale też wspólne doświadczenie"
+  "title": "Łączy nas nie tylko wspólna pasja, ale też wspólne doświadczenie",
+  "numbers": [
+    {
+      "number": "20",
+      "description": "wystąpień i inicjatyw",
+      "more": "Występowałyśmy m.in. na: AgileByExample, Agile Warsaw, Scrum Experience Day, Agile & Automation Days, Quality Excites, Agile Swarming, Tydzień Facylitacji, ALE Kraków, LeadIT Lady."
+    }
+  ]
 }
