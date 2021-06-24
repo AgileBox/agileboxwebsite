@@ -7,5 +7,36 @@ fields:
   config:
     required: false
   label: Title
+- name: numbers
+  type: field_group_list
+  fields:
+  - name: number
+    type: text
+    config:
+      required: false
+    label: Number
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  - name: more
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: More
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Numbers
 pages:
 - content/data/info.json
