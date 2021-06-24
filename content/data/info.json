@@ -1,11 +1,50 @@
 {
-  "description": "<h2>This blog was created using <a href=\"https://forestry.io/\" title=\"Forestry Link\">Forestry</a> &amp; <a href=\"https://gridsome.org/\" title=\"Gatsby Link\">Gridsome</a></h2>",
-  "cta": "<h2>To get started, import this site into Forestry or checkout the repository <a href=\"https://github.com/kendallstrautman/starter-blog-gatsby\" title=\"Repo Url\">here</a>.</h2>",
-  "contact": {
-    "email": "info@forestry.io",
-    "twitter_handle": "forestryio",
-    "github_handle": "forestryio"
-  },
-  "background_color": "#B1BCBC",
-  "text_color": "#ebebeb"
+  "title": "Łączy nas nie tylko wspólna pasja, ale też wspólne doświadczenie",
+  "numbers": [
+    {
+      "number": "24",
+      "description": "lata pracy w IT",
+      "more": "w tym 18 lat pracy nad zwinnością w różnych organizacjach"
+    },
+    {
+      "number": "21",
+      "description": "zespołów",
+      "more": "w których pracowałyśmy w roli Scrum Mastera"
+    },
+    {
+      "number": "60",
+      "description": "zespołów",
+      "more": "które wspierałyśmy jako Agile Coach"
+    },
+    {
+      "number": "29",
+      "description": "Product Ownerów",
+      "more": ""
+    },
+    {
+      "number": "83",
+      "description": "Scrum Masterów",
+      "more": ""
+    },
+    {
+      "number": "49",
+      "description": "managerów, z którymi współpracowałyśmy indywidualnie",
+      "more": ""
+    },
+    {
+      "number": "1000+ ",
+      "description": "przeszkolonych osób",
+      "more": "Szkolimy z zakresu Lean/Agile oraz kompetencji liderskich. Przygotowujemy warsztaty i szkolenia skrojone na miarę, zarówno w wersji stacjonarnej jak i online."
+    },
+    {
+      "number": "20",
+      "description": "wystąpień i inicjatyw",
+      "more": "Występowałyśmy m.in. na: AgileByExample, Agile Warsaw, Scrum Experience Day, Agile & Automation Days, Quality Excites, Agile Swarming, Tydzień Facylitacji, ALE Kraków, LeadIT Lady."
+    }
+  ],
+  "subtitle": "Poznałyśmy się w 2018 roku w William Hill gdzie prowadziłyśmy wspólnie transformację Agilową w ponad 50 zespołach pracujących w różnych lokalizacjach: w Krakowie, Leeds, Londynie i na Gibraltarze.",
+  "text": "Szybko okazało się, że mamy wiele wspólnego, a szczególnie pasję do dzielenia się wiedzą i wspierania Scrum Masterów, Product Ownerów i managerów w ich codziennej pracy.",
+  "summary": "Ale przede wszystkim, połączyło nas wspólne pragnienie - dzielić się z innymi naszą wiedzą i doświadczeniem, pomagać organizacjom i osobom prywatnym w rozwoju. W efekcie stworzyłyśmy “Agile Box” - przestrzeń dla zwinnych liderów.",
+  "luiza": "Z IT jestem związana od 15 lat. Pełniłam różne funkcje, od kierownika projektu, szefa działu Scrum Masterów, managera działu deweloperskiego, po szefa Agile Coachów. Brałam udział w wielu transformacjach i zmianach organizacyjnych (m.in. w Allegro, PayU, William Hill, GlaxoSmithKline). Dzięki tym doświadczeniom nauczyłam się w jaki sposób tworzyć i wspierać budowanie środowiska, które służy rozwojowi zespołów i jednostek, pozwala im rosnąć i odnosić sukcesy. Nauczyłam się jak być liderem w trudnych i zmiennych warunkach.\nObecnie dzielę się swoją wiedzą z innymi - jestem coachem i trenerem zespołów, liderów i managerów w zakresie najlepszych praktyk Lean, Agile, HR oraz rozwoju osobistego.",
+  "dorota": "Swoją przygodę z IT rozpoczęłam ponad 10 lat temu od testowania radiotelefonów dla służb publicznych. Byłam liderem zespołu testowego odpowiedzialnego za strategię testową i koordynowanie testów dla 10 zespołów pracujących nad jednym produktem.\nOd tamtej pory rozwijam swoje liderskie kompetencje promując zwinne podejście w organizacjach, pracując z zespołami i managerami nad dostarczaniem wartościowych produktów w bardziej efektywny sposób."
 }

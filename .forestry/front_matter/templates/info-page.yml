@@ -2,32 +2,86 @@
 label: Info Page
 hide_body: true
 fields:
-- type: textarea
-  name: description
-  label: description
+- name: title
+  type: text
   config:
-    wysiwyg: true
-    schema:
-      format: html-blocks
-- type: textarea
-  name: cta
-  label: Call to action
+    required: false
+  label: Title
+- name: subtitle
+  type: textarea
+  default: ''
   config:
-    wysiwyg: true
+    required: false
+    wysiwyg: false
     schema:
-      format: html-blocks
-- type: field_group
-  name: contact
-  label: Contact Info
+      format: markdown
+  label: Subtitle
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text
+- name: numbers
+  type: field_group_list
   fields:
-  - type: text
-    name: email
-    label: email
-  - type: text
-    name: twitter_handle
-    label: twitter_handle
-  - type: text
-    name: github_handle
-    label: github_handle
+  - name: number
+    type: text
+    config:
+      required: false
+    label: Number
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  - name: more
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: More
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Numbers
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Summary
+- name: luiza
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Luiza
+- name: dorota
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Dorota
 pages:
 - content/data/info.json
