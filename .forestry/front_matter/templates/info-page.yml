@@ -1,33 +1,6 @@
 ---
 label: Info Page
 hide_body: true
-fields:
-- type: textarea
-  name: description
-  label: description
-  config:
-    wysiwyg: true
-    schema:
-      format: html-blocks
-- type: textarea
-  name: cta
-  label: Call to action
-  config:
-    wysiwyg: true
-    schema:
-      format: html-blocks
-- type: field_group
-  name: contact
-  label: Contact Info
-  fields:
-  - type: text
-    name: email
-    label: email
-  - type: text
-    name: twitter_handle
-    label: twitter_handle
-  - type: text
-    name: github_handle
-    label: github_handle
+fields: []
 pages:
 - content/data/info.json
