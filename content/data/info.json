@@ -11,6 +11,11 @@
   "title": "Łączy nas nie tylko wspólna pasja, ale też wspólne doświadczenie",
   "numbers": [
     {
+      "number": "1000+ ",
+      "description": "przeszkolonych osób",
+      "more": "Szkolimy z zakresu Lean/Agile oraz kompetencji liderskich. Przygotowujemy warsztaty i szkolenia skrojone na miarę, zarówno w wersji stacjonarnej jak i online."
+    },
+    {
       "number": "20",
       "description": "wystąpień i inicjatyw",
       "more": "Występowałyśmy m.in. na: AgileByExample, Agile Warsaw, Scrum Experience Day, Agile & Automation Days, Quality Excites, Agile Swarming, Tydzień Facylitacji, ALE Kraków, LeadIT Lady."
