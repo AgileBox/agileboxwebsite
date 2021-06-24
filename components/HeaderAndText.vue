@@ -23,7 +23,7 @@
                 </h3>
             </div>
             <div
-                :class="isWide ? 'col-span-6' : 'sm:col-start-2 sm:col-span-4'"
+                :class="isWide ? 'col-span-6' : 'col-span-6 sm:col-start-2 sm:col-span-4'"
             >
                 <slot />
             </div>

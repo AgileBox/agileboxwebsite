@@ -48,7 +48,7 @@ export default {
 
     &--has-img {
         height: 50vh;
-        min-height: 400px;
+        min-height: 300px;
     }
 }
 
